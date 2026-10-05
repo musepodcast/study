@@ -1,0 +1,7 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    { "name": "Run Flutter Web", "type": "dart", "request": "launch", "cwd": "${workspaceFolder}/app", "program": "lib/main.dart", "deviceId": "chrome" },
+    { "name": "Run Flutter Android", "type": "dart", "request": "launch", "cwd": "${workspaceFolder}/app", "program": "lib/main.dart" }
+  ]
+}

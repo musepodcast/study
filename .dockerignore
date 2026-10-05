@@ -1,0 +1,5 @@
+.git
+app/build
+app/.dart_tool
+tools/.python
+**/__pycache__

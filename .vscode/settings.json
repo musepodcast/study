@@ -1,0 +1,6 @@
+{
+  "dart.flutterProjectSearchDepth": 2,
+  "editor.formatOnSave": true,
+  "[dart]": { "editor.defaultFormatter": "Dart-Code.dart-code" },
+  "files.exclude": { "**/.dart_tool": true, "**/build": true, "tools/.python": true }
+}

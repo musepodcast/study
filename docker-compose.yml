@@ -1,0 +1,16 @@
+services:
+  flutter:
+    build:
+      context: .
+      args:
+        FLUTTER_VERSION: 3.41.6
+    working_dir: /workspace/app
+    volumes:
+      - .:/workspace
+      - pub-cache:/opt/pub-cache
+      - dart-tool:/workspace/app/.dart_tool
+    ports:
+      - "8080:8080"
+volumes:
+  pub-cache:
+  dart-tool:

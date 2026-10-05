@@ -64,11 +64,19 @@ Future<StudyController> createController({
   MemoryStorage? storage,
   FileBundle? bundle,
 }) async {
-  final controller = StudyController(
-    repository: AssetContentRepository(bundle: bundle ?? FileBundle()),
-    storage: storage ?? MemoryStorage(),
-    speech: FakeSpeech(),
+  final controller = createUninitializedController(
+    storage: storage,
+    bundle: bundle,
   );
   await controller.initialize();
   return controller;
 }
+
+StudyController createUninitializedController({
+  MemoryStorage? storage,
+  FileBundle? bundle,
+}) => StudyController(
+  repository: AssetContentRepository(bundle: bundle ?? FileBundle()),
+  storage: storage ?? MemoryStorage(),
+  speech: FakeSpeech(),
+);

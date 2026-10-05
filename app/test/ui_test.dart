@@ -18,9 +18,8 @@ void main() {
     'Portuguese interface defaults, English questions, and persistent English switch',
     (tester) async {
       final storage = MemoryStorage();
-      final c = (await tester.runAsync(
-        () => createController(storage: storage),
-      ))!;
+      final c = createUninitializedController(storage: storage);
+      await tester.runAsync(c.initialize);
       await tester.pumpWidget(CivicsApp(controller: c));
       await tester.pumpAndSettle();
       expect(find.text('Estudo Cívico dos EUA'), findsOneWidget);
