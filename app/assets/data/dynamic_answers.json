@@ -1,0 +1,12 @@
+{
+  "verifiedOn": "2026-10-04",
+  "answers": {
+    "senators": {"english": ["Rick Scott", "Ashley Moody"], "portuguese": ["Rick Scott", "Ashley Moody"], "source": "https://www.senate.gov/states/FL/intro.htm"},
+    "representative": {"english": ["Jimmy Patronis"], "portuguese": ["Jimmy Patronis"], "source": "https://clerk.house.gov/Members/P000622"},
+    "speaker": {"english": ["Mike Johnson"], "portuguese": ["Mike Johnson"], "source": "https://www.house.gov/leadership"},
+    "president": {"english": ["Donald J. Trump"], "portuguese": ["Donald J. Trump"], "source": "https://www.whitehouse.gov/administration/donald-j-trump/"},
+    "vicePresident": {"english": ["JD Vance"], "portuguese": ["JD Vance"], "source": "https://www.whitehouse.gov/administration/jd-vance/"},
+    "chiefJustice": {"english": ["John G. Roberts, Jr."], "portuguese": ["John G. Roberts, Jr."], "source": "https://www.supremecourt.gov/about/biographies.aspx"},
+    "governor": {"english": ["Ron DeSantis"], "portuguese": ["Ron DeSantis"], "source": "https://flgov.com/eog/leadership/people/ron-desantis"}
+  }
+}

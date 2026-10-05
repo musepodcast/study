@@ -1,0 +1,3017 @@
+{
+  "version": "2025",
+  "source": "https://www.uscis.gov/sites/default/files/document/questions-and-answers/2025-Civics-Test-128-Questions-and-Answers.pdf",
+  "sourceSha256": "f280608c0fb6dc1eba344b4746a7ba52d02fe411fba30cedd4371819f0abe11c",
+  "questions": [
+    {
+      "id": "civics-2025-001",
+      "number": 1,
+      "questionEnglish": "What is the form of government of the United States?",
+      "answersEnglish": [
+        "Republic",
+        "Constitution-based federal republic",
+        "Representative democracy"
+      ],
+      "special65_20": false,
+      "category": "Principles of American Government",
+      "questionPortuguese": "Qual é a forma de governo dos Estados Unidos?",
+      "answersPortuguese": [
+        "República",
+        "República federal baseada na Constituição",
+        "Democracia representativa"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "Constitution",
+        "representative",
+        "federal"
+      ]
+    },
+    {
+      "id": "civics-2025-002",
+      "number": 2,
+      "questionEnglish": "What is the supreme law of the land?",
+      "answersEnglish": [
+        "(U.S.) Constitution"
+      ],
+      "special65_20": true,
+      "category": "Principles of American Government",
+      "questionPortuguese": "Qual é a lei suprema do país?",
+      "answersPortuguese": [
+        "Constituição (dos EUA)"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "Constitution",
+        "law"
+      ]
+    },
+    {
+      "id": "civics-2025-003",
+      "number": 3,
+      "questionEnglish": "Name one thing the U.S. Constitution does.",
+      "answersEnglish": [
+        "Forms the government",
+        "Defines powers of government",
+        "Defines the parts of government",
+        "Protects the rights of the people"
+      ],
+      "special65_20": false,
+      "category": "Principles of American Government",
+      "questionPortuguese": "Diga uma coisa que a Constituição dos EUA faz.",
+      "answersPortuguese": [
+        "Estabelece o governo",
+        "Define os poderes do governo",
+        "Define as partes do governo",
+        "Protege os direitos do povo"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "Constitution",
+        "rights"
+      ]
+    },
+    {
+      "id": "civics-2025-004",
+      "number": 4,
+      "questionEnglish": "The U.S. Constitution starts with the words “We the People.” What does “We the People” mean?",
+      "answersEnglish": [
+        "Self-government",
+        "Popular sovereignty",
+        "Consent of the governed",
+        "People should govern themselves",
+        "(Example of) social contract"
+      ],
+      "special65_20": false,
+      "category": "Principles of American Government",
+      "questionPortuguese": "A Constituição dos EUA começa com as palavras “Nós, o Povo”. O que significa “Nós, o Povo”?",
+      "answersPortuguese": [
+        "Autogoverno",
+        "Soberania popular",
+        "Consentimento dos governados",
+        "O povo deve governar a si mesmo",
+        "Um exemplo de contrato social"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "Constitution"
+      ]
+    },
+    {
+      "id": "civics-2025-005",
+      "number": 5,
+      "questionEnglish": "How are changes made to the U.S. Constitution?",
+      "answersEnglish": [
+        "Amendments",
+        "The amendment process"
+      ],
+      "special65_20": false,
+      "category": "Principles of American Government",
+      "questionPortuguese": "Como são feitas mudanças na Constituição dos EUA?",
+      "answersPortuguese": [
+        "Emendas",
+        "O processo de emenda constitucional"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "Constitution",
+        "amendment"
+      ]
+    },
+    {
+      "id": "civics-2025-006",
+      "number": 6,
+      "questionEnglish": "What does the Bill of Rights protect?",
+      "answersEnglish": [
+        "(The basic) rights of Americans",
+        "(The basic) rights of people living in the United States"
+      ],
+      "special65_20": false,
+      "category": "Principles of American Government",
+      "questionPortuguese": "O que a Declaração de Direitos protege?",
+      "answersPortuguese": [
+        "Os direitos básicos dos americanos",
+        "Os direitos básicos das pessoas que vivem nos Estados Unidos"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "rights",
+        "Bill of Rights"
+      ]
+    },
+    {
+      "id": "civics-2025-007",
+      "number": 7,
+      "questionEnglish": "How many amendments does the U.S. Constitution have?",
+      "answersEnglish": [
+        "Twenty-seven (27)"
+      ],
+      "special65_20": true,
+      "category": "Principles of American Government",
+      "questionPortuguese": "Quantas emendas a Constituição dos EUA tem?",
+      "answersPortuguese": [
+        "Vinte e sete (27)"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "Constitution"
+      ]
+    },
+    {
+      "id": "civics-2025-008",
+      "number": 8,
+      "questionEnglish": "Why is the Declaration of Independence important?",
+      "answersEnglish": [
+        "It says America is free from British control.",
+        "It says all people are created equal.",
+        "It identifies inherent rights.",
+        "It identifies individual freedoms."
+      ],
+      "special65_20": false,
+      "category": "Principles of American Government",
+      "questionPortuguese": "Por que a Declaração de Independência é importante?",
+      "answersPortuguese": [
+        "Afirma que a América está livre do controle britânico.",
+        "Afirma que todas as pessoas são criadas iguais.",
+        "Identifica direitos inerentes.",
+        "Identifica liberdades individuais."
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "rights",
+        "Declaration of Independence",
+        "independence"
+      ]
+    },
+    {
+      "id": "civics-2025-009",
+      "number": 9,
+      "questionEnglish": "What founding document said the American colonies were free from Britain?",
+      "answersEnglish": [
+        "Declaration of Independence"
+      ],
+      "special65_20": false,
+      "category": "Principles of American Government",
+      "questionPortuguese": "Qual documento fundador declarou que as colônias americanas estavam livres da Grã-Bretanha?",
+      "answersPortuguese": [
+        "Declaração de Independência"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "Declaration of Independence",
+        "independence"
+      ]
+    },
+    {
+      "id": "civics-2025-010",
+      "number": 10,
+      "questionEnglish": "Name two important ideas from the Declaration of Independence and the U.S. Constitution.",
+      "answersEnglish": [
+        "Equality",
+        "Liberty",
+        "Social contract",
+        "Natural rights",
+        "Limited government",
+        "Self-government"
+      ],
+      "special65_20": false,
+      "category": "Principles of American Government",
+      "questionPortuguese": "Diga duas ideias importantes da Declaração de Independência e da Constituição dos EUA.",
+      "answersPortuguese": [
+        "Igualdade",
+        "Liberdade",
+        "Contrato social",
+        "Direitos naturais",
+        "Governo limitado",
+        "Autogoverno"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "Constitution",
+        "rights",
+        "liberty",
+        "Declaration of Independence",
+        "independence"
+      ]
+    },
+    {
+      "id": "civics-2025-011",
+      "number": 11,
+      "questionEnglish": "The words “Life, Liberty, and the pursuit of Happiness” are in what founding document?",
+      "answersEnglish": [
+        "Declaration of Independence"
+      ],
+      "special65_20": false,
+      "category": "Principles of American Government",
+      "questionPortuguese": "As palavras “Vida, Liberdade e a busca da Felicidade” estão em qual documento fundador?",
+      "answersPortuguese": [
+        "Declaração de Independência"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "liberty",
+        "Declaration of Independence",
+        "independence"
+      ]
+    },
+    {
+      "id": "civics-2025-012",
+      "number": 12,
+      "questionEnglish": "What is the economic system of the United States?",
+      "answersEnglish": [
+        "Capitalism",
+        "Free market economy"
+      ],
+      "special65_20": true,
+      "category": "Principles of American Government",
+      "questionPortuguese": "Qual é o sistema econômico dos Estados Unidos?",
+      "answersPortuguese": [
+        "Capitalismo",
+        "Economia de livre mercado"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": []
+    },
+    {
+      "id": "civics-2025-013",
+      "number": 13,
+      "questionEnglish": "What is the rule of law?",
+      "answersEnglish": [
+        "Everyone must follow the law.",
+        "Leaders must obey the law.",
+        "Government must obey the law.",
+        "No one is above the law."
+      ],
+      "special65_20": false,
+      "category": "Principles of American Government",
+      "questionPortuguese": "O que é o Estado de Direito?",
+      "answersPortuguese": [
+        "Todos devem seguir a lei.",
+        "Os líderes devem obedecer à lei.",
+        "O governo deve obedecer à lei.",
+        "Ninguém está acima da lei."
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "law"
+      ]
+    },
+    {
+      "id": "civics-2025-014",
+      "number": 14,
+      "questionEnglish": "Many documents influenced the U.S. Constitution. Name one.",
+      "answersEnglish": [
+        "Declaration of Independence",
+        "Articles of Confederation",
+        "Federalist Papers",
+        "Anti-Federalist Papers",
+        "Virginia Declaration of Rights",
+        "Fundamental Orders of Connecticut",
+        "Mayflower Compact",
+        "Iroquois Great Law of Peace"
+      ],
+      "special65_20": false,
+      "category": "Principles of American Government",
+      "questionPortuguese": "Muitos documentos influenciaram a Constituição dos EUA. Diga um.",
+      "answersPortuguese": [
+        "Declaração de Independência",
+        "Artigos da Confederação",
+        "Os Artigos Federalistas",
+        "Os Artigos Antifederalistas",
+        "Declaração de Direitos da Virgínia",
+        "Ordens Fundamentais de Connecticut",
+        "Pacto do Mayflower",
+        "Grande Lei da Paz dos iroqueses"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "Constitution",
+        "rights",
+        "Declaration of Independence",
+        "law",
+        "independence"
+      ]
+    },
+    {
+      "id": "civics-2025-015",
+      "number": 15,
+      "questionEnglish": "There are three branches of government. Why?",
+      "answersEnglish": [
+        "So one part does not become too powerful",
+        "Checks and balances",
+        "Separation of powers"
+      ],
+      "special65_20": false,
+      "category": "Principles of American Government",
+      "questionPortuguese": "Existem três poderes do governo. Por quê?",
+      "answersPortuguese": [
+        "Para que uma parte não se torne poderosa demais",
+        "Freios e contrapesos",
+        "Separação dos poderes"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "checks and balances"
+      ]
+    },
+    {
+      "id": "civics-2025-016",
+      "number": 16,
+      "questionEnglish": "Name the three branches of government.",
+      "answersEnglish": [
+        "Legislative, executive, and judicial",
+        "Congress, president, and the courts"
+      ],
+      "special65_20": false,
+      "category": "System of Government",
+      "questionPortuguese": "Diga os três poderes do governo.",
+      "answersPortuguese": [
+        "Legislativo, executivo e judiciário",
+        "Congresso, presidente e tribunais"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "Congress",
+        "President",
+        "judicial",
+        "executive",
+        "legislative"
+      ]
+    },
+    {
+      "id": "civics-2025-017",
+      "number": 17,
+      "questionEnglish": "The President of the United States is in charge of which branch of government?",
+      "answersEnglish": [
+        "Executive branch"
+      ],
+      "special65_20": false,
+      "category": "System of Government",
+      "questionPortuguese": "O presidente dos Estados Unidos está à frente de qual poder do governo?",
+      "answersPortuguese": [
+        "Poder executivo"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "President",
+        "executive"
+      ]
+    },
+    {
+      "id": "civics-2025-018",
+      "number": 18,
+      "questionEnglish": "What part of the federal government writes laws?",
+      "answersEnglish": [
+        "(U.S.) Congress",
+        "(U.S. or national) legislature",
+        "Legislative branch"
+      ],
+      "special65_20": false,
+      "category": "System of Government",
+      "questionPortuguese": "Qual parte do governo federal cria as leis?",
+      "answersPortuguese": [
+        "Congresso (dos EUA)",
+        "Legislatura (dos EUA ou nacional)",
+        "Poder legislativo"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "Congress",
+        "federal",
+        "legislative"
+      ]
+    },
+    {
+      "id": "civics-2025-019",
+      "number": 19,
+      "questionEnglish": "What are the two parts of the U.S. Congress?",
+      "answersEnglish": [
+        "Senate and House (of Representatives)"
+      ],
+      "special65_20": false,
+      "category": "System of Government",
+      "questionPortuguese": "Quais são as duas partes do Congresso dos EUA?",
+      "answersPortuguese": [
+        "Senado e Câmara dos Representantes"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "Congress"
+      ]
+    },
+    {
+      "id": "civics-2025-020",
+      "number": 20,
+      "questionEnglish": "Name one power of the U.S. Congress.",
+      "answersEnglish": [
+        "Writes laws",
+        "Declares war",
+        "Makes the federal budget"
+      ],
+      "special65_20": true,
+      "category": "System of Government",
+      "questionPortuguese": "Diga um poder do Congresso dos EUA.",
+      "answersPortuguese": [
+        "Cria leis",
+        "Declara guerra",
+        "Elabora o orçamento federal"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "Congress",
+        "federal"
+      ]
+    },
+    {
+      "id": "civics-2025-021",
+      "number": 21,
+      "questionEnglish": "How many U.S. senators are there?",
+      "answersEnglish": [
+        "One hundred (100)"
+      ],
+      "special65_20": false,
+      "category": "System of Government",
+      "questionPortuguese": "Quantos senadores dos EUA existem?",
+      "answersPortuguese": [
+        "Cem (100)"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": []
+    },
+    {
+      "id": "civics-2025-022",
+      "number": 22,
+      "questionEnglish": "How long is a term for a U.S. senator?",
+      "answersEnglish": [
+        "Six (6) years"
+      ],
+      "special65_20": false,
+      "category": "System of Government",
+      "questionPortuguese": "Quanto tempo dura o mandato de um senador dos EUA?",
+      "answersPortuguese": [
+        "Seis (6) anos"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "senator",
+        "term"
+      ]
+    },
+    {
+      "id": "civics-2025-023",
+      "number": 23,
+      "questionEnglish": "Who is one of your state’s U.S. senators now?",
+      "answersEnglish": [
+        "Answers will vary. [District of Columbia residents and residents of U.S. territories should answer that D.C. (or the territory where the applicant lives) has no U.S. senators.]"
+      ],
+      "special65_20": false,
+      "category": "System of Government",
+      "questionPortuguese": "Quem é um dos atuais senadores dos EUA pelo seu estado?",
+      "answersPortuguese": [
+        "As respostas variam. Moradores do Distrito de Colúmbia e de territórios dos EUA devem responder que o local onde vivem não tem senadores dos EUA."
+      ],
+      "dynamic": true,
+      "dynamicType": "senators",
+      "vocabulary": [
+        "state"
+      ]
+    },
+    {
+      "id": "civics-2025-024",
+      "number": 24,
+      "questionEnglish": "How many voting members are in the House of Representatives?",
+      "answersEnglish": [
+        "Four hundred thirty-five (435)"
+      ],
+      "special65_20": false,
+      "category": "System of Government",
+      "questionPortuguese": "Quantos membros com direito a voto existem na Câmara dos Representantes?",
+      "answersPortuguese": [
+        "Quatrocentos e trinta e cinco (435)"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": []
+    },
+    {
+      "id": "civics-2025-025",
+      "number": 25,
+      "questionEnglish": "How long is a term for a member of the House of Representatives?",
+      "answersEnglish": [
+        "Two (2) years"
+      ],
+      "special65_20": false,
+      "category": "System of Government",
+      "questionPortuguese": "Quanto tempo dura o mandato de um membro da Câmara dos Representantes?",
+      "answersPortuguese": [
+        "Dois (2) anos"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "term"
+      ]
+    },
+    {
+      "id": "civics-2025-026",
+      "number": 26,
+      "questionEnglish": "Why do U.S. representatives serve shorter terms than U.S. senators?",
+      "answersEnglish": [
+        "To more closely follow public opinion"
+      ],
+      "special65_20": false,
+      "category": "System of Government",
+      "questionPortuguese": "Por que os representantes dos EUA têm mandatos mais curtos que os senadores dos EUA?",
+      "answersPortuguese": [
+        "Para acompanhar mais de perto a opinião pública"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": []
+    },
+    {
+      "id": "civics-2025-027",
+      "number": 27,
+      "questionEnglish": "How many senators does each state have?",
+      "answersEnglish": [
+        "Two (2)"
+      ],
+      "special65_20": false,
+      "category": "System of Government",
+      "questionPortuguese": "Quantos senadores cada estado tem?",
+      "answersPortuguese": [
+        "Dois (2)"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "state"
+      ]
+    },
+    {
+      "id": "civics-2025-028",
+      "number": 28,
+      "questionEnglish": "Why does each state have two senators?",
+      "answersEnglish": [
+        "Equal representation (for small states)",
+        "The Great Compromise (Connecticut Compromise)"
+      ],
+      "special65_20": false,
+      "category": "System of Government",
+      "questionPortuguese": "Por que cada estado tem dois senadores?",
+      "answersPortuguese": [
+        "Representação igual para os estados pequenos",
+        "O Grande Compromisso (Compromisso de Connecticut)"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "state"
+      ]
+    },
+    {
+      "id": "civics-2025-029",
+      "number": 29,
+      "questionEnglish": "Name your U.S. representative.",
+      "answersEnglish": [
+        "Answers will vary. [Residents of territories with nonvoting Delegates or Resident Commissioners may provide the name of that Delegate or Commissioner. Also acceptable is any statement that the territory has no (voting) representatives in Congress.]"
+      ],
+      "special65_20": false,
+      "category": "System of Government",
+      "questionPortuguese": "Diga o nome do seu representante na Câmara dos EUA.",
+      "answersPortuguese": [
+        "As respostas variam. Moradores de territórios podem dar o nome de seu delegado sem direito a voto ou comissário residente. Também é aceita a afirmação de que o território não tem representantes com direito a voto no Congresso."
+      ],
+      "dynamic": true,
+      "dynamicType": "representative",
+      "vocabulary": [
+        "Congress",
+        "representative"
+      ]
+    },
+    {
+      "id": "civics-2025-030",
+      "number": 30,
+      "questionEnglish": "What is the name of the Speaker of the House of Representatives now?",
+      "answersEnglish": [
+        "Visit uscis.gov/citizenship/testupdates for the name of the Speaker of the House of Representatives."
+      ],
+      "special65_20": true,
+      "category": "System of Government",
+      "questionPortuguese": "Qual é o nome do atual presidente da Câmara dos Representantes?",
+      "answersPortuguese": [
+        "Consulte uscis.gov/citizenship/testupdates para saber o nome do presidente da Câmara dos Representantes."
+      ],
+      "dynamic": true,
+      "dynamicType": "speaker",
+      "vocabulary": [
+        "Speaker"
+      ]
+    },
+    {
+      "id": "civics-2025-031",
+      "number": 31,
+      "questionEnglish": "Who does a U.S. senator represent?",
+      "answersEnglish": [
+        "Citizens of their state",
+        "People of their state"
+      ],
+      "special65_20": false,
+      "category": "System of Government",
+      "questionPortuguese": "Quem um senador dos EUA representa?",
+      "answersPortuguese": [
+        "Os cidadãos do seu estado",
+        "As pessoas do seu estado"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "senator",
+        "state"
+      ]
+    },
+    {
+      "id": "civics-2025-032",
+      "number": 32,
+      "questionEnglish": "Who elects U.S. senators?",
+      "answersEnglish": [
+        "Citizens from their state"
+      ],
+      "special65_20": false,
+      "category": "System of Government",
+      "questionPortuguese": "Quem elege os senadores dos EUA?",
+      "answersPortuguese": [
+        "Os cidadãos do seu estado"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "state"
+      ]
+    },
+    {
+      "id": "civics-2025-033",
+      "number": 33,
+      "questionEnglish": "Who does a member of the House of Representatives represent?",
+      "answersEnglish": [
+        "Citizens in their (congressional) district",
+        "Citizens in their district",
+        "People from their (congressional) district",
+        "People in their district"
+      ],
+      "special65_20": false,
+      "category": "System of Government",
+      "questionPortuguese": "Quem um membro da Câmara dos Representantes representa?",
+      "answersPortuguese": [
+        "Os cidadãos do seu distrito congressional",
+        "Os cidadãos do seu distrito",
+        "As pessoas do seu distrito congressional",
+        "As pessoas do seu distrito"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": []
+    },
+    {
+      "id": "civics-2025-034",
+      "number": 34,
+      "questionEnglish": "Who elects members of the House of Representatives?",
+      "answersEnglish": [
+        "Citizens from their (congressional) district"
+      ],
+      "special65_20": false,
+      "category": "System of Government",
+      "questionPortuguese": "Quem elege os membros da Câmara dos Representantes?",
+      "answersPortuguese": [
+        "Os cidadãos do seu distrito congressional"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": []
+    },
+    {
+      "id": "civics-2025-035",
+      "number": 35,
+      "questionEnglish": "Some states have more representatives than other states. Why?",
+      "answersEnglish": [
+        "(Because of) the state’s population",
+        "(Because) they have more people",
+        "(Because) some states have more people"
+      ],
+      "special65_20": false,
+      "category": "System of Government",
+      "questionPortuguese": "Alguns estados têm mais representantes que outros. Por quê?",
+      "answersPortuguese": [
+        "Por causa da população do estado",
+        "Porque têm mais pessoas",
+        "Porque alguns estados têm mais pessoas"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "state"
+      ]
+    },
+    {
+      "id": "civics-2025-036",
+      "number": 36,
+      "questionEnglish": "The President of the United States is elected for how many years?",
+      "answersEnglish": [
+        "Four (4) years"
+      ],
+      "special65_20": true,
+      "category": "System of Government",
+      "questionPortuguese": "O presidente dos Estados Unidos é eleito para um mandato de quantos anos?",
+      "answersPortuguese": [
+        "Quatro (4) anos"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "President"
+      ]
+    },
+    {
+      "id": "civics-2025-037",
+      "number": 37,
+      "questionEnglish": "The President of the United States can serve only two terms. Why?",
+      "answersEnglish": [
+        "(Because of) the 22nd Amendment",
+        "To keep the president from becoming too powerful"
+      ],
+      "special65_20": false,
+      "category": "System of Government",
+      "questionPortuguese": "O presidente dos Estados Unidos só pode exercer dois mandatos. Por quê?",
+      "answersPortuguese": [
+        "Por causa da 22ª Emenda",
+        "Para evitar que o presidente se torne poderoso demais"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "amendment",
+        "President"
+      ]
+    },
+    {
+      "id": "civics-2025-038",
+      "number": 38,
+      "questionEnglish": "What is the name of the President of the United States now?",
+      "answersEnglish": [
+        "Visit uscis.gov/citizenship/testupdates for the name of the President of the United States."
+      ],
+      "special65_20": true,
+      "category": "System of Government",
+      "questionPortuguese": "Qual é o nome do atual presidente dos Estados Unidos?",
+      "answersPortuguese": [
+        "Consulte uscis.gov/citizenship/testupdates para saber o nome do presidente dos Estados Unidos."
+      ],
+      "dynamic": true,
+      "dynamicType": "president",
+      "vocabulary": [
+        "President"
+      ]
+    },
+    {
+      "id": "civics-2025-039",
+      "number": 39,
+      "questionEnglish": "What is the name of the Vice President of the United States now?",
+      "answersEnglish": [
+        "Visit uscis.gov/citizenship/testupdates for the name of the Vice President of the United States."
+      ],
+      "special65_20": true,
+      "category": "System of Government",
+      "questionPortuguese": "Qual é o nome do atual vice-presidente dos Estados Unidos?",
+      "answersPortuguese": [
+        "Consulte uscis.gov/citizenship/testupdates para saber o nome do vice-presidente dos Estados Unidos."
+      ],
+      "dynamic": true,
+      "dynamicType": "vicePresident",
+      "vocabulary": [
+        "President",
+        "Vice President"
+      ]
+    },
+    {
+      "id": "civics-2025-040",
+      "number": 40,
+      "questionEnglish": "If the president can no longer serve, who becomes president?",
+      "answersEnglish": [
+        "The Vice President (of the United States)"
+      ],
+      "special65_20": false,
+      "category": "System of Government",
+      "questionPortuguese": "Se o presidente não puder mais exercer o cargo, quem se torna presidente?",
+      "answersPortuguese": [
+        "O vice-presidente dos Estados Unidos"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "President",
+        "Vice President"
+      ]
+    },
+    {
+      "id": "civics-2025-041",
+      "number": 41,
+      "questionEnglish": "Name one power of the president.",
+      "answersEnglish": [
+        "Signs bills into law",
+        "Vetoes bills",
+        "Enforces laws",
+        "Commander in Chief (of the military)",
+        "Chief diplomat",
+        "Appoints federal judges"
+      ],
+      "special65_20": false,
+      "category": "System of Government",
+      "questionPortuguese": "Diga um poder do presidente.",
+      "answersPortuguese": [
+        "Sanciona projetos de lei",
+        "Veta projetos de lei",
+        "Faz cumprir as leis",
+        "É o comandante em chefe das Forças Armadas",
+        "É o principal diplomata",
+        "Nomeia juízes federais"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "President",
+        "law",
+        "federal",
+        "vetoes"
+      ]
+    },
+    {
+      "id": "civics-2025-042",
+      "number": 42,
+      "questionEnglish": "Who is Commander in Chief of the U.S. military?",
+      "answersEnglish": [
+        "The President (of the United States)"
+      ],
+      "special65_20": false,
+      "category": "System of Government",
+      "questionPortuguese": "Quem é o comandante em chefe das Forças Armadas dos EUA?",
+      "answersPortuguese": [
+        "O presidente dos Estados Unidos"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "President"
+      ]
+    },
+    {
+      "id": "civics-2025-043",
+      "number": 43,
+      "questionEnglish": "Who signs bills to become laws?",
+      "answersEnglish": [
+        "The President (of the United States)"
+      ],
+      "special65_20": false,
+      "category": "System of Government",
+      "questionPortuguese": "Quem sanciona os projetos para que se tornem leis?",
+      "answersPortuguese": [
+        "O presidente dos Estados Unidos"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "President"
+      ]
+    },
+    {
+      "id": "civics-2025-044",
+      "number": 44,
+      "questionEnglish": "Who vetoes bills?",
+      "answersEnglish": [
+        "The President (of the United States)"
+      ],
+      "special65_20": true,
+      "category": "System of Government",
+      "questionPortuguese": "Quem veta projetos de lei?",
+      "answersPortuguese": [
+        "O presidente dos Estados Unidos"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "President",
+        "vetoes"
+      ]
+    },
+    {
+      "id": "civics-2025-045",
+      "number": 45,
+      "questionEnglish": "Who appoints federal judges?",
+      "answersEnglish": [
+        "The President (of the United States)"
+      ],
+      "special65_20": false,
+      "category": "System of Government",
+      "questionPortuguese": "Quem nomeia os juízes federais?",
+      "answersPortuguese": [
+        "O presidente dos Estados Unidos"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "President",
+        "federal"
+      ]
+    },
+    {
+      "id": "civics-2025-046",
+      "number": 46,
+      "questionEnglish": "The executive branch has many parts. Name one.",
+      "answersEnglish": [
+        "President (of the United States)",
+        "Cabinet",
+        "Federal departments and agencies"
+      ],
+      "special65_20": false,
+      "category": "System of Government",
+      "questionPortuguese": "O poder executivo tem muitas partes. Diga uma.",
+      "answersPortuguese": [
+        "Presidente dos Estados Unidos",
+        "Gabinete",
+        "Departamentos e agências federais"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "President",
+        "federal",
+        "executive",
+        "Cabinet"
+      ]
+    },
+    {
+      "id": "civics-2025-047",
+      "number": 47,
+      "questionEnglish": "What does the President’s Cabinet do?",
+      "answersEnglish": [
+        "Advises the President (of the United States)"
+      ],
+      "special65_20": false,
+      "category": "System of Government",
+      "questionPortuguese": "O que o Gabinete do presidente faz?",
+      "answersPortuguese": [
+        "Aconselha o presidente dos Estados Unidos"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "President",
+        "Cabinet"
+      ]
+    },
+    {
+      "id": "civics-2025-048",
+      "number": 48,
+      "questionEnglish": "What are two Cabinet-level positions?",
+      "answersEnglish": [
+        "Attorney General",
+        "Secretary of Agriculture",
+        "Secretary of Commerce",
+        "Secretary of Education",
+        "Secretary of Energy",
+        "Secretary of Health and Human Services",
+        "Secretary of Homeland Security",
+        "Secretary of Housing and Urban Development",
+        "Secretary of the Interior",
+        "Secretary of Labor",
+        "Secretary of State",
+        "Secretary of Transportation",
+        "Secretary of the Treasury",
+        "Secretary of Veterans Affairs",
+        "Secretary of War (Defense)",
+        "Vice-President",
+        "Administrator of the Environmental Protection Agency",
+        "Administrator of the Small Business Administration",
+        "Director of the Central Intelligence Agency",
+        "Director of the Office of Management and Budget",
+        "Director of National Intelligence",
+        "United States Trade Representative"
+      ],
+      "special65_20": false,
+      "category": "System of Government",
+      "questionPortuguese": "Quais são dois cargos de nível de Gabinete?",
+      "answersPortuguese": [
+        "Procurador-geral",
+        "Secretário de Agricultura",
+        "Secretário de Comércio",
+        "Secretário de Educação",
+        "Secretário de Energia",
+        "Secretário de Saúde e Serviços Humanos",
+        "Secretário de Segurança Interna",
+        "Secretário de Habitação e Desenvolvimento Urbano",
+        "Secretário do Interior",
+        "Secretário do Trabalho",
+        "Secretário de Estado",
+        "Secretário de Transportes",
+        "Secretário do Tesouro",
+        "Secretário de Assuntos dos Veteranos",
+        "Secretário de Guerra (Defesa)",
+        "Vice-presidente",
+        "Administrador da Agência de Proteção Ambiental",
+        "Administrador da Administração de Pequenas Empresas",
+        "Diretor da Agência Central de Inteligência",
+        "Diretor do Escritório de Gestão e Orçamento",
+        "Diretor de Inteligência Nacional",
+        "Representante de Comércio dos Estados Unidos"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "representative",
+        "President",
+        "state",
+        "Cabinet"
+      ]
+    },
+    {
+      "id": "civics-2025-049",
+      "number": 49,
+      "questionEnglish": "Why is the Electoral College important?",
+      "answersEnglish": [
+        "It decides who is elected president.",
+        "It provides a compromise between the popular election of the president and congressional selection."
+      ],
+      "special65_20": false,
+      "category": "System of Government",
+      "questionPortuguese": "Por que o Colégio Eleitoral é importante?",
+      "answersPortuguese": [
+        "Decide quem é eleito presidente.",
+        "É um compromisso entre a eleição popular do presidente e a escolha pelo Congresso."
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "President",
+        "Electoral College"
+      ]
+    },
+    {
+      "id": "civics-2025-050",
+      "number": 50,
+      "questionEnglish": "What is one part of the judicial branch?",
+      "answersEnglish": [
+        "Supreme Court",
+        "Federal Courts"
+      ],
+      "special65_20": false,
+      "category": "System of Government",
+      "questionPortuguese": "Qual é uma parte do poder judiciário?",
+      "answersPortuguese": [
+        "Suprema Corte",
+        "Tribunais federais"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "Supreme Court",
+        "federal",
+        "judicial"
+      ]
+    },
+    {
+      "id": "civics-2025-051",
+      "number": 51,
+      "questionEnglish": "What does the judicial branch do?",
+      "answersEnglish": [
+        "Reviews laws",
+        "Explains laws",
+        "Resolves disputes (disagreements) about the law",
+        "Decides if a law goes against the (U.S.) Constitution"
+      ],
+      "special65_20": false,
+      "category": "System of Government",
+      "questionPortuguese": "O que o poder judiciário faz?",
+      "answersPortuguese": [
+        "Analisa as leis",
+        "Explica as leis",
+        "Resolve disputas ou discordâncias sobre a lei",
+        "Decide se uma lei viola a Constituição dos EUA"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "Constitution",
+        "law",
+        "judicial"
+      ]
+    },
+    {
+      "id": "civics-2025-052",
+      "number": 52,
+      "questionEnglish": "What is the highest court in the United States?",
+      "answersEnglish": [
+        "Supreme Court"
+      ],
+      "special65_20": true,
+      "category": "System of Government",
+      "questionPortuguese": "Qual é o tribunal mais alto dos Estados Unidos?",
+      "answersPortuguese": [
+        "Suprema Corte"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "Supreme Court"
+      ]
+    },
+    {
+      "id": "civics-2025-053",
+      "number": 53,
+      "questionEnglish": "How many seats are on the Supreme Court?",
+      "answersEnglish": [
+        "Nine (9)"
+      ],
+      "special65_20": false,
+      "category": "System of Government",
+      "questionPortuguese": "Quantas vagas existem na Suprema Corte?",
+      "answersPortuguese": [
+        "Nove (9)"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "Supreme Court"
+      ]
+    },
+    {
+      "id": "civics-2025-054",
+      "number": 54,
+      "questionEnglish": "How many Supreme Court justices are usually needed to decide a case?",
+      "answersEnglish": [
+        "Five (5)"
+      ],
+      "special65_20": false,
+      "category": "System of Government",
+      "questionPortuguese": "Quantos ministros da Suprema Corte geralmente são necessários para decidir um caso?",
+      "answersPortuguese": [
+        "Cinco (5)"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "Supreme Court"
+      ]
+    },
+    {
+      "id": "civics-2025-055",
+      "number": 55,
+      "questionEnglish": "How long do Supreme Court justices serve?",
+      "answersEnglish": [
+        "(For) life",
+        "Lifetime appointment",
+        "(Until) retirement"
+      ],
+      "special65_20": false,
+      "category": "System of Government",
+      "questionPortuguese": "Por quanto tempo os ministros da Suprema Corte exercem o cargo?",
+      "answersPortuguese": [
+        "Por toda a vida",
+        "Nomeação vitalícia",
+        "Até a aposentadoria"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "Supreme Court"
+      ]
+    },
+    {
+      "id": "civics-2025-056",
+      "number": 56,
+      "questionEnglish": "Supreme Court justices serve for life. Why?",
+      "answersEnglish": [
+        "To be independent (of politics)",
+        "To limit outside (political) influence"
+      ],
+      "special65_20": false,
+      "category": "System of Government",
+      "questionPortuguese": "Os ministros da Suprema Corte têm cargos vitalícios. Por quê?",
+      "answersPortuguese": [
+        "Para serem independentes da política",
+        "Para limitar a influência política externa"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "Supreme Court"
+      ]
+    },
+    {
+      "id": "civics-2025-057",
+      "number": 57,
+      "questionEnglish": "Who is the Chief Justice of the United States now?",
+      "answersEnglish": [
+        "Visit uscis.gov/citizenship/testupdates for the name of the Chief Justice of the United States."
+      ],
+      "special65_20": false,
+      "category": "System of Government",
+      "questionPortuguese": "Quem é o atual presidente da Suprema Corte dos Estados Unidos?",
+      "answersPortuguese": [
+        "Consulte uscis.gov/citizenship/testupdates para saber o nome do presidente da Suprema Corte dos Estados Unidos."
+      ],
+      "dynamic": true,
+      "dynamicType": "chiefJustice",
+      "vocabulary": []
+    },
+    {
+      "id": "civics-2025-058",
+      "number": 58,
+      "questionEnglish": "Name one power that is only for the federal government.",
+      "answersEnglish": [
+        "Print paper money",
+        "Mint coins",
+        "Declare war",
+        "Create an army",
+        "Make treaties",
+        "Set foreign policy"
+      ],
+      "special65_20": false,
+      "category": "System of Government",
+      "questionPortuguese": "Diga um poder exclusivo do governo federal.",
+      "answersPortuguese": [
+        "Imprimir papel-moeda",
+        "Cunhar moedas",
+        "Declarar guerra",
+        "Criar um exército",
+        "Celebrar tratados",
+        "Definir a política externa"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "federal"
+      ]
+    },
+    {
+      "id": "civics-2025-059",
+      "number": 59,
+      "questionEnglish": "Name one power that is only for the states.",
+      "answersEnglish": [
+        "Provide schooling and education",
+        "Provide protection (police)",
+        "Provide safety (fire departments)",
+        "Give a driver’s license",
+        "Approve zoning and land use"
+      ],
+      "special65_20": false,
+      "category": "System of Government",
+      "questionPortuguese": "Diga um poder exclusivo dos estados.",
+      "answersPortuguese": [
+        "Oferecer ensino e educação",
+        "Oferecer proteção policial",
+        "Oferecer segurança por meio dos bombeiros",
+        "Emitir carteira de motorista",
+        "Aprovar o zoneamento e o uso do solo"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": []
+    },
+    {
+      "id": "civics-2025-060",
+      "number": 60,
+      "questionEnglish": "What is the purpose of the 10th Amendment?",
+      "answersEnglish": [
+        "(It states that the) powers not given to the federal government belong to the states or to the people."
+      ],
+      "special65_20": false,
+      "category": "System of Government",
+      "questionPortuguese": "Qual é o propósito da 10ª Emenda?",
+      "answersPortuguese": [
+        "Estabelece que os poderes não atribuídos ao governo federal pertencem aos estados ou ao povo."
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "amendment",
+        "federal"
+      ]
+    },
+    {
+      "id": "civics-2025-061",
+      "number": 61,
+      "questionEnglish": "Who is the governor of your state now?",
+      "answersEnglish": [
+        "Answers will vary. [District of Columbia residents should answer that D.C. does not have a governor.]"
+      ],
+      "special65_20": true,
+      "category": "System of Government",
+      "questionPortuguese": "Quem é o atual governador do seu estado?",
+      "answersPortuguese": [
+        "As respostas variam. Moradores do Distrito de Colúmbia devem responder que o D.C. não tem governador."
+      ],
+      "dynamic": true,
+      "dynamicType": "governor",
+      "vocabulary": [
+        "governor",
+        "state"
+      ]
+    },
+    {
+      "id": "civics-2025-062",
+      "number": 62,
+      "questionEnglish": "What is the capital of your state?",
+      "answersEnglish": [
+        "Answers will vary. [District of Columbia residents should answer that D.C. is not a state and does not have a capital. Residents of U.S. territories should name the capital of the territory.]"
+      ],
+      "special65_20": false,
+      "category": "System of Government",
+      "questionPortuguese": "Qual é a capital do seu estado?",
+      "answersPortuguese": [
+        "As respostas variam. Moradores do Distrito de Colúmbia devem responder que o D.C. não é um estado e não tem capital. Moradores de territórios dos EUA devem dizer a capital do território."
+      ],
+      "dynamic": true,
+      "dynamicType": "stateCapital",
+      "vocabulary": [
+        "state",
+        "capital"
+      ]
+    },
+    {
+      "id": "civics-2025-063",
+      "number": 63,
+      "questionEnglish": "There are four amendments to the U.S. Constitution about who can vote. Describe one of them.",
+      "answersEnglish": [
+        "Citizens eighteen (18) and older (can vote).",
+        "You don’t have to pay (a poll tax) to vote.",
+        "Any citizen can vote. (Women and men can vote.)",
+        "A male citizen of any race (can vote)."
+      ],
+      "special65_20": false,
+      "category": "Rights and Responsibilities",
+      "questionPortuguese": "Existem quatro emendas à Constituição dos EUA sobre quem pode votar. Descreva uma delas.",
+      "answersPortuguese": [
+        "Cidadãos com dezoito (18) anos ou mais podem votar.",
+        "Não é necessário pagar imposto eleitoral para votar.",
+        "Qualquer cidadão pode votar. Mulheres e homens podem votar.",
+        "Um cidadão do sexo masculino de qualquer raça pode votar."
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "Constitution",
+        "citizen",
+        "vote"
+      ]
+    },
+    {
+      "id": "civics-2025-064",
+      "number": 64,
+      "questionEnglish": "Who can vote in federal elections, run for federal office, and serve on a jury in the United States?",
+      "answersEnglish": [
+        "Citizens",
+        "Citizens of the United States",
+        "U.S. citizens"
+      ],
+      "special65_20": false,
+      "category": "Rights and Responsibilities",
+      "questionPortuguese": "Quem pode votar nas eleições federais, candidatar-se a cargos federais e participar de um júri nos Estados Unidos?",
+      "answersPortuguese": [
+        "Cidadãos",
+        "Cidadãos dos Estados Unidos",
+        "Cidadãos americanos"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "vote",
+        "federal"
+      ]
+    },
+    {
+      "id": "civics-2025-065",
+      "number": 65,
+      "questionEnglish": "What are three rights of everyone living in the United States?",
+      "answersEnglish": [
+        "Freedom of expression",
+        "Freedom of speech",
+        "Freedom of assembly",
+        "Freedom to petition the government",
+        "Freedom of religion",
+        "The right to bear arms"
+      ],
+      "special65_20": false,
+      "category": "Rights and Responsibilities",
+      "questionPortuguese": "Quais são três direitos de todas as pessoas que vivem nos Estados Unidos?",
+      "answersPortuguese": [
+        "Liberdade de expressão",
+        "Liberdade de fala",
+        "Liberdade de reunião",
+        "Liberdade de peticionar ao governo",
+        "Liberdade religiosa",
+        "Direito de portar armas"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "rights"
+      ]
+    },
+    {
+      "id": "civics-2025-066",
+      "number": 66,
+      "questionEnglish": "What do we show loyalty to when we say the Pledge of Allegiance?",
+      "answersEnglish": [
+        "The United States",
+        "The flag"
+      ],
+      "special65_20": true,
+      "category": "Rights and Responsibilities",
+      "questionPortuguese": "A que demonstramos lealdade ao recitar o Juramento à Bandeira?",
+      "answersPortuguese": [
+        "Aos Estados Unidos",
+        "À bandeira"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "Pledge of Allegiance"
+      ]
+    },
+    {
+      "id": "civics-2025-067",
+      "number": 67,
+      "questionEnglish": "Name two promises that new citizens make in the Oath of Allegiance.",
+      "answersEnglish": [
+        "Give up loyalty to other countries",
+        "Defend the (U.S.) Constitution",
+        "Obey the laws of the United States",
+        "Serve in the military (if needed)",
+        "Serve (help, do important work for) the nation (if needed)",
+        "Be loyal to the United States"
+      ],
+      "special65_20": false,
+      "category": "Rights and Responsibilities",
+      "questionPortuguese": "Diga duas promessas que os novos cidadãos fazem no Juramento de Fidelidade.",
+      "answersPortuguese": [
+        "Renunciar à lealdade a outros países",
+        "Defender a Constituição dos EUA",
+        "Obedecer às leis dos Estados Unidos",
+        "Servir nas Forças Armadas, se necessário",
+        "Servir e ajudar a nação, se necessário",
+        "Ser leal aos Estados Unidos"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "Constitution",
+        "Oath of Allegiance"
+      ]
+    },
+    {
+      "id": "civics-2025-068",
+      "number": 68,
+      "questionEnglish": "How can people become United States citizens?",
+      "answersEnglish": [
+        "Be born in the United States, under the conditions set by the 14th Amendment",
+        "Naturalize",
+        "Derive citizenship (under conditions set by Congress)"
+      ],
+      "special65_20": false,
+      "category": "Rights and Responsibilities",
+      "questionPortuguese": "Como as pessoas podem se tornar cidadãs dos Estados Unidos?",
+      "answersPortuguese": [
+        "Nascer nos Estados Unidos, nas condições estabelecidas pela 14ª Emenda",
+        "Naturalizar-se",
+        "Obter cidadania derivada, nas condições estabelecidas pelo Congresso"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "Congress",
+        "amendment"
+      ]
+    },
+    {
+      "id": "civics-2025-069",
+      "number": 69,
+      "questionEnglish": "What are two examples of civic participation in the United States?",
+      "answersEnglish": [
+        "Vote",
+        "Run for office",
+        "Join a political party",
+        "Help with a campaign",
+        "Join a civic group",
+        "Join a community group",
+        "Give an elected official your opinion (on an issue)",
+        "Contact elected officials",
+        "Support or oppose an issue or policy",
+        "Write to a newspaper"
+      ],
+      "special65_20": false,
+      "category": "Rights and Responsibilities",
+      "questionPortuguese": "Quais são dois exemplos de participação cívica nos Estados Unidos?",
+      "answersPortuguese": [
+        "Votar",
+        "Candidatar-se a um cargo público",
+        "Participar de um partido político",
+        "Ajudar em uma campanha",
+        "Participar de um grupo cívico",
+        "Participar de um grupo comunitário",
+        "Dar sua opinião a uma autoridade eleita sobre um assunto",
+        "Entrar em contato com autoridades eleitas",
+        "Apoiar ou se opor a uma questão ou política",
+        "Escrever para um jornal"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "vote"
+      ]
+    },
+    {
+      "id": "civics-2025-070",
+      "number": 70,
+      "questionEnglish": "What is one way Americans can serve their country?",
+      "answersEnglish": [
+        "Vote",
+        "Pay taxes",
+        "Obey the law",
+        "Serve in the military",
+        "Run for office",
+        "Work for local, state, or federal government"
+      ],
+      "special65_20": false,
+      "category": "Rights and Responsibilities",
+      "questionPortuguese": "Qual é uma maneira de os americanos servirem ao seu país?",
+      "answersPortuguese": [
+        "Votar",
+        "Pagar impostos",
+        "Obedecer à lei",
+        "Servir nas Forças Armadas",
+        "Candidatar-se a um cargo público",
+        "Trabalhar no governo local, estadual ou federal"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "vote",
+        "law",
+        "federal",
+        "state"
+      ]
+    },
+    {
+      "id": "civics-2025-071",
+      "number": 71,
+      "questionEnglish": "Why is it important to pay federal taxes?",
+      "answersEnglish": [
+        "Required by law",
+        "All people pay to fund the federal government",
+        "Required by the (U.S.) Constitution (16th Amendment)",
+        "Civic duty"
+      ],
+      "special65_20": false,
+      "category": "Rights and Responsibilities",
+      "questionPortuguese": "Por que é importante pagar impostos federais?",
+      "answersPortuguese": [
+        "É exigido por lei",
+        "Todos contribuem para financiar o governo federal",
+        "É exigido pela Constituição dos EUA, na 16ª Emenda",
+        "É um dever cívico"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "Constitution",
+        "amendment",
+        "law",
+        "federal"
+      ]
+    },
+    {
+      "id": "civics-2025-072",
+      "number": 72,
+      "questionEnglish": "It is important for all men age 18 through 25 to register for the Selective Service. Name one reason why.",
+      "answersEnglish": [
+        "Required by law",
+        "Civic duty",
+        "Makes the draft fair, if needed"
+      ],
+      "special65_20": false,
+      "category": "Rights and Responsibilities",
+      "questionPortuguese": "É importante que todos os homens de 18 a 25 anos se registrem no Serviço Seletivo. Diga uma razão.",
+      "answersPortuguese": [
+        "É exigido por lei",
+        "É um dever cívico",
+        "Torna o recrutamento militar justo, se necessário"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "law"
+      ]
+    },
+    {
+      "id": "civics-2025-073",
+      "number": 73,
+      "questionEnglish": "The colonists came to America for many reasons. Name one.",
+      "answersEnglish": [
+        "Freedom",
+        "Political liberty",
+        "Religious freedom",
+        "Economic opportunity",
+        "Escape persecution"
+      ],
+      "special65_20": false,
+      "category": "Colonial Period and Independence",
+      "questionPortuguese": "Os colonos vieram para a América por muitos motivos. Diga um.",
+      "answersPortuguese": [
+        "Liberdade",
+        "Liberdade política",
+        "Liberdade religiosa",
+        "Oportunidade econômica",
+        "Fugir da perseguição"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "liberty"
+      ]
+    },
+    {
+      "id": "civics-2025-074",
+      "number": 74,
+      "questionEnglish": "Who lived in America before the Europeans arrived?",
+      "answersEnglish": [
+        "American Indians",
+        "Native Americans"
+      ],
+      "special65_20": true,
+      "category": "Colonial Period and Independence",
+      "questionPortuguese": "Quem vivia na América antes da chegada dos europeus?",
+      "answersPortuguese": [
+        "Indígenas americanos",
+        "Povos nativos americanos"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": []
+    },
+    {
+      "id": "civics-2025-075",
+      "number": 75,
+      "questionEnglish": "What group of people was taken and sold as slaves?",
+      "answersEnglish": [
+        "Africans",
+        "People from Africa"
+      ],
+      "special65_20": false,
+      "category": "Colonial Period and Independence",
+      "questionPortuguese": "Qual grupo de pessoas foi levado e vendido como escravizado?",
+      "answersPortuguese": [
+        "Africanos",
+        "Pessoas da África"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": []
+    },
+    {
+      "id": "civics-2025-076",
+      "number": 76,
+      "questionEnglish": "What war did the Americans fight to win independence from Britain?",
+      "answersEnglish": [
+        "American Revolution",
+        "The (American) Revolutionary War",
+        "War for (American) Independence"
+      ],
+      "special65_20": false,
+      "category": "Colonial Period and Independence",
+      "questionPortuguese": "Qual guerra os americanos travaram para conquistar a independência da Grã-Bretanha?",
+      "answersPortuguese": [
+        "Revolução Americana",
+        "Guerra Revolucionária Americana",
+        "Guerra de Independência Americana"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "independence"
+      ]
+    },
+    {
+      "id": "civics-2025-077",
+      "number": 77,
+      "questionEnglish": "Name one reason why the Americans declared independence from Britain.",
+      "answersEnglish": [
+        "High taxes",
+        "Taxation without representation",
+        "British soldiers stayed in Americans’ houses (boarding, quartering)",
+        "They did not have self-government",
+        "Boston Massacre",
+        "Boston Tea Party (Tea Act)",
+        "Stamp Act",
+        "Sugar Act",
+        "Townshend Acts",
+        "Intolerable (Coercive) Acts"
+      ],
+      "special65_20": false,
+      "category": "Colonial Period and Independence",
+      "questionPortuguese": "Diga uma razão pela qual os americanos declararam independência da Grã-Bretanha.",
+      "answersPortuguese": [
+        "Impostos altos",
+        "Tributação sem representação",
+        "Soldados britânicos ficaram alojados nas casas dos americanos",
+        "Não tinham autogoverno",
+        "Massacre de Boston",
+        "Festa do Chá de Boston (Lei do Chá)",
+        "Lei do Selo",
+        "Lei do Açúcar",
+        "Leis Townshend",
+        "Leis Intoleráveis (Coercitivas)"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "independence"
+      ]
+    },
+    {
+      "id": "civics-2025-078",
+      "number": 78,
+      "questionEnglish": "Who wrote the Declaration of Independence?",
+      "answersEnglish": [
+        "(Thomas) Jefferson"
+      ],
+      "special65_20": true,
+      "category": "Colonial Period and Independence",
+      "questionPortuguese": "Quem escreveu a Declaração de Independência?",
+      "answersPortuguese": [
+        "(Thomas) Jefferson"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "Declaration of Independence",
+        "independence"
+      ]
+    },
+    {
+      "id": "civics-2025-079",
+      "number": 79,
+      "questionEnglish": "When was the Declaration of Independence adopted?",
+      "answersEnglish": [
+        "July 4, 1776"
+      ],
+      "special65_20": false,
+      "category": "Colonial Period and Independence",
+      "questionPortuguese": "Quando a Declaração de Independência foi adotada?",
+      "answersPortuguese": [
+        "4 de julho de 1776"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "Declaration of Independence",
+        "independence"
+      ]
+    },
+    {
+      "id": "civics-2025-080",
+      "number": 80,
+      "questionEnglish": "The American Revolution had many important events. Name one.",
+      "answersEnglish": [
+        "(Battle of) Bunker Hill",
+        "Declaration of Independence",
+        "Washington Crossing the Delaware (Battle of Trenton)",
+        "(Battle of) Saratoga",
+        "Valley Forge (Encampment)",
+        "(Battle of) Yorktown (British surrender at Yorktown)"
+      ],
+      "special65_20": false,
+      "category": "Colonial Period and Independence",
+      "questionPortuguese": "A Revolução Americana teve muitos acontecimentos importantes. Diga um.",
+      "answersPortuguese": [
+        "Batalha de Bunker Hill",
+        "Declaração de Independência",
+        "Travessia do Delaware por Washington (Batalha de Trenton)",
+        "Batalha de Saratoga",
+        "Acampamento de Valley Forge",
+        "Batalha de Yorktown (rendição britânica em Yorktown)"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "Declaration of Independence",
+        "independence"
+      ]
+    },
+    {
+      "id": "civics-2025-081",
+      "number": 81,
+      "questionEnglish": "There were 13 original states. Name five.",
+      "answersEnglish": [
+        "New Hampshire",
+        "Massachusetts",
+        "Rhode Island",
+        "Connecticut",
+        "New York",
+        "New Jersey",
+        "Pennsylvania",
+        "Delaware",
+        "Maryland",
+        "Virginia",
+        "North Carolina",
+        "South Carolina",
+        "Georgia"
+      ],
+      "special65_20": false,
+      "category": "Colonial Period and Independence",
+      "questionPortuguese": "Existiam 13 estados originais. Diga cinco.",
+      "answersPortuguese": [
+        "New Hampshire",
+        "Massachusetts",
+        "Rhode Island",
+        "Connecticut",
+        "Nova York",
+        "Nova Jersey",
+        "Pensilvânia",
+        "Delaware",
+        "Maryland",
+        "Virgínia",
+        "Carolina do Norte",
+        "Carolina do Sul",
+        "Geórgia"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": []
+    },
+    {
+      "id": "civics-2025-082",
+      "number": 82,
+      "questionEnglish": "What founding document was written in 1787?",
+      "answersEnglish": [
+        "(U.S.) Constitution"
+      ],
+      "special65_20": false,
+      "category": "Colonial Period and Independence",
+      "questionPortuguese": "Qual documento fundador foi escrito em 1787?",
+      "answersPortuguese": [
+        "Constituição dos EUA"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "Constitution"
+      ]
+    },
+    {
+      "id": "civics-2025-083",
+      "number": 83,
+      "questionEnglish": "The Federalist Papers supported the passage of the U.S. Constitution. Name one of the writers.",
+      "answersEnglish": [
+        "(James) Madison",
+        "(Alexander) Hamilton",
+        "(John) Jay",
+        "Publius"
+      ],
+      "special65_20": false,
+      "category": "Colonial Period and Independence",
+      "questionPortuguese": "Os Artigos Federalistas apoiaram a aprovação da Constituição dos EUA. Diga um dos autores.",
+      "answersPortuguese": [
+        "(James) Madison",
+        "(Alexander) Hamilton",
+        "(John) Jay",
+        "Publius"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "Constitution"
+      ]
+    },
+    {
+      "id": "civics-2025-084",
+      "number": 84,
+      "questionEnglish": "Why were the Federalist Papers important?",
+      "answersEnglish": [
+        "They helped people understand the (U.S.) Constitution.",
+        "They supported passing the (U.S.) Constitution."
+      ],
+      "special65_20": false,
+      "category": "Colonial Period and Independence",
+      "questionPortuguese": "Por que os Artigos Federalistas foram importantes?",
+      "answersPortuguese": [
+        "Ajudaram as pessoas a entender a Constituição dos EUA.",
+        "Apoiaram a aprovação da Constituição dos EUA."
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "Constitution"
+      ]
+    },
+    {
+      "id": "civics-2025-085",
+      "number": 85,
+      "questionEnglish": "Benjamin Franklin is famous for many things. Name one.",
+      "answersEnglish": [
+        "Founded the first free public libraries",
+        "First Postmaster General of the United States",
+        "Helped write the Declaration of Independence",
+        "Inventor",
+        "U.S. diplomat"
+      ],
+      "special65_20": false,
+      "category": "Colonial Period and Independence",
+      "questionPortuguese": "Benjamin Franklin é conhecido por muitas coisas. Diga uma.",
+      "answersPortuguese": [
+        "Fundou as primeiras bibliotecas públicas gratuitas",
+        "Foi o primeiro diretor-geral dos Correios dos Estados Unidos",
+        "Ajudou a escrever a Declaração de Independência",
+        "Foi inventor",
+        "Foi diplomata dos EUA"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "Declaration of Independence",
+        "independence"
+      ]
+    },
+    {
+      "id": "civics-2025-086",
+      "number": 86,
+      "questionEnglish": "George Washington is famous for many things. Name one.",
+      "answersEnglish": [
+        "“Father of Our Country”",
+        "First president of the United States",
+        "General of the Continental Army",
+        "President of the Constitutional Convention"
+      ],
+      "special65_20": true,
+      "category": "Colonial Period and Independence",
+      "questionPortuguese": "George Washington é conhecido por muitas coisas. Diga uma.",
+      "answersPortuguese": [
+        "“Pai da Nossa Pátria”",
+        "Primeiro presidente dos Estados Unidos",
+        "General do Exército Continental",
+        "Presidente da Convenção Constitucional"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "President"
+      ]
+    },
+    {
+      "id": "civics-2025-087",
+      "number": 87,
+      "questionEnglish": "Thomas Jefferson is famous for many things. Name one.",
+      "answersEnglish": [
+        "Writer of the Declaration of Independence",
+        "Third president of the United States",
+        "Doubled the size of the United States (Louisiana Purchase)",
+        "First Secretary of State",
+        "Founded the University of Virginia",
+        "Writer of the Virginia Statute on Religious Freedom"
+      ],
+      "special65_20": false,
+      "category": "Colonial Period and Independence",
+      "questionPortuguese": "Thomas Jefferson é conhecido por muitas coisas. Diga uma.",
+      "answersPortuguese": [
+        "Autor da Declaração de Independência",
+        "Terceiro presidente dos Estados Unidos",
+        "Dobrou o tamanho dos Estados Unidos com a Compra da Louisiana",
+        "Primeiro secretário de Estado",
+        "Fundou a Universidade da Virgínia",
+        "Autor do Estatuto da Virgínia sobre Liberdade Religiosa"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "Declaration of Independence",
+        "President",
+        "state",
+        "independence"
+      ]
+    },
+    {
+      "id": "civics-2025-088",
+      "number": 88,
+      "questionEnglish": "James Madison is famous for many things. Name one.",
+      "answersEnglish": [
+        "“Father of the Constitution”",
+        "Fourth president of the United States",
+        "President during the War of 1812",
+        "One of the writers of the Federalist Papers"
+      ],
+      "special65_20": false,
+      "category": "Colonial Period and Independence",
+      "questionPortuguese": "James Madison é conhecido por muitas coisas. Diga uma.",
+      "answersPortuguese": [
+        "“Pai da Constituição”",
+        "Quarto presidente dos Estados Unidos",
+        "Presidente durante a Guerra de 1812",
+        "Um dos autores dos Artigos Federalistas"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "Constitution",
+        "President"
+      ]
+    },
+    {
+      "id": "civics-2025-089",
+      "number": 89,
+      "questionEnglish": "Alexander Hamilton is famous for many things. Name one.",
+      "answersEnglish": [
+        "First Secretary of the Treasury",
+        "One of the writers of the Federalist Papers",
+        "Helped establish the First Bank of the United States",
+        "Aide to General George Washington",
+        "Member of the Continental Congress"
+      ],
+      "special65_20": false,
+      "category": "Colonial Period and Independence",
+      "questionPortuguese": "Alexander Hamilton é conhecido por muitas coisas. Diga uma.",
+      "answersPortuguese": [
+        "Primeiro secretário do Tesouro",
+        "Um dos autores dos Artigos Federalistas",
+        "Ajudou a estabelecer o Primeiro Banco dos Estados Unidos",
+        "Assistente do general George Washington",
+        "Membro do Congresso Continental"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "Congress"
+      ]
+    },
+    {
+      "id": "civics-2025-090",
+      "number": 90,
+      "questionEnglish": "What territory did the United States buy from France in 1803?",
+      "answersEnglish": [
+        "Louisiana Territory",
+        "Louisiana"
+      ],
+      "special65_20": false,
+      "category": "1800s",
+      "questionPortuguese": "Qual território os Estados Unidos compraram da França em 1803?",
+      "answersPortuguese": [
+        "Território da Louisiana",
+        "Louisiana"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": []
+    },
+    {
+      "id": "civics-2025-091",
+      "number": 91,
+      "questionEnglish": "Name one war fought by the United States in the 1800s.",
+      "answersEnglish": [
+        "War of 1812",
+        "Mexican-American War",
+        "Civil War",
+        "Spanish-American War"
+      ],
+      "special65_20": false,
+      "category": "1800s",
+      "questionPortuguese": "Diga uma guerra travada pelos Estados Unidos no século XIX.",
+      "answersPortuguese": [
+        "Guerra de 1812",
+        "Guerra Mexicano-Americana",
+        "Guerra Civil",
+        "Guerra Hispano-Americana"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "Civil War"
+      ]
+    },
+    {
+      "id": "civics-2025-092",
+      "number": 92,
+      "questionEnglish": "Name the U.S. war between the North and the South.",
+      "answersEnglish": [
+        "The Civil War"
+      ],
+      "special65_20": false,
+      "category": "1800s",
+      "questionPortuguese": "Diga o nome da guerra dos EUA entre o Norte e o Sul.",
+      "answersPortuguese": [
+        "Guerra Civil"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "Civil War"
+      ]
+    },
+    {
+      "id": "civics-2025-093",
+      "number": 93,
+      "questionEnglish": "The Civil War had many important events. Name one.",
+      "answersEnglish": [
+        "(Battle of) Fort Sumter",
+        "Emancipation Proclamation",
+        "(Battle of) Vicksburg",
+        "(Battle of) Gettysburg",
+        "Sherman’s March",
+        "(Surrender at) Appomattox",
+        "(Battle of) Antietam/Sharpsburg",
+        "Lincoln was assassinated."
+      ],
+      "special65_20": false,
+      "category": "1800s",
+      "questionPortuguese": "A Guerra Civil teve muitos acontecimentos importantes. Diga um.",
+      "answersPortuguese": [
+        "Batalha de Fort Sumter",
+        "Proclamação de Emancipação",
+        "Batalha de Vicksburg",
+        "Batalha de Gettysburg",
+        "Marcha de Sherman",
+        "Rendição em Appomattox",
+        "Batalha de Antietam/Sharpsburg",
+        "Lincoln foi assassinado."
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "Civil War"
+      ]
+    },
+    {
+      "id": "civics-2025-094",
+      "number": 94,
+      "questionEnglish": "Abraham Lincoln is famous for many things. Name one.",
+      "answersEnglish": [
+        "Freed the slaves (Emancipation Proclamation)",
+        "Saved (or preserved) the Union",
+        "Led the United States during the Civil War",
+        "16th president of the United States",
+        "Delivered the Gettysburg Address"
+      ],
+      "special65_20": true,
+      "category": "1800s",
+      "questionPortuguese": "Abraham Lincoln é conhecido por muitas coisas. Diga uma.",
+      "answersPortuguese": [
+        "Libertou os escravizados (Proclamação de Emancipação)",
+        "Salvou ou preservou a União",
+        "Liderou os Estados Unidos durante a Guerra Civil",
+        "Foi o 16º presidente dos Estados Unidos",
+        "Proferiu o Discurso de Gettysburg"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "President",
+        "Civil War"
+      ]
+    },
+    {
+      "id": "civics-2025-095",
+      "number": 95,
+      "questionEnglish": "What did the Emancipation Proclamation do?",
+      "answersEnglish": [
+        "Freed the slaves",
+        "Freed slaves in the Confederacy",
+        "Freed slaves in the Confederate states",
+        "Freed slaves in most Southern states"
+      ],
+      "special65_20": false,
+      "category": "1800s",
+      "questionPortuguese": "O que a Proclamação de Emancipação fez?",
+      "answersPortuguese": [
+        "Libertou os escravizados",
+        "Libertou os escravizados na Confederação",
+        "Libertou os escravizados nos estados confederados",
+        "Libertou os escravizados na maioria dos estados do Sul"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": []
+    },
+    {
+      "id": "civics-2025-096",
+      "number": 96,
+      "questionEnglish": "What U.S. war ended slavery?",
+      "answersEnglish": [
+        "The Civil War"
+      ],
+      "special65_20": false,
+      "category": "1800s",
+      "questionPortuguese": "Qual guerra dos EUA acabou com a escravidão?",
+      "answersPortuguese": [
+        "Guerra Civil"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "slavery",
+        "Civil War"
+      ]
+    },
+    {
+      "id": "civics-2025-097",
+      "number": 97,
+      "questionEnglish": "What amendment says all persons born or naturalized in the United States, and subject to the jurisdiction thereof, are U.S. citizens?",
+      "answersEnglish": [
+        "14th Amendment"
+      ],
+      "special65_20": false,
+      "category": "1800s",
+      "questionPortuguese": "Qual emenda diz que todas as pessoas nascidas ou naturalizadas nos Estados Unidos, e sujeitas à sua jurisdição, são cidadãs dos EUA?",
+      "answersPortuguese": [
+        "14ª Emenda"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "amendment"
+      ]
+    },
+    {
+      "id": "civics-2025-098",
+      "number": 98,
+      "questionEnglish": "When did all men get the right to vote?",
+      "answersEnglish": [
+        "After the Civil War",
+        "During Reconstruction",
+        "(With the) 15th Amendment",
+        "1870"
+      ],
+      "special65_20": false,
+      "category": "1800s",
+      "questionPortuguese": "Quando todos os homens obtiveram o direito de votar?",
+      "answersPortuguese": [
+        "Após a Guerra Civil",
+        "Durante a Reconstrução",
+        "Com a 15ª Emenda",
+        "1870"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "amendment",
+        "vote",
+        "Civil War"
+      ]
+    },
+    {
+      "id": "civics-2025-099",
+      "number": 99,
+      "questionEnglish": "Name one leader of the women’s rights movement in the 1800s.",
+      "answersEnglish": [
+        "Susan B. Anthony",
+        "Elizabeth Cady Stanton",
+        "Sojourner Truth",
+        "Harriet Tubman",
+        "Lucretia Mott",
+        "Lucy Stone"
+      ],
+      "special65_20": false,
+      "category": "1800s",
+      "questionPortuguese": "Diga uma líder do movimento pelos direitos das mulheres no século XIX.",
+      "answersPortuguese": [
+        "Susan B. Anthony",
+        "Elizabeth Cady Stanton",
+        "Sojourner Truth",
+        "Harriet Tubman",
+        "Lucretia Mott",
+        "Lucy Stone"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "rights"
+      ]
+    },
+    {
+      "id": "civics-2025-100",
+      "number": 100,
+      "questionEnglish": "Name one war fought by the United States in the 1900s.",
+      "answersEnglish": [
+        "World War I",
+        "World War II",
+        "Korean War",
+        "Vietnam War",
+        "(Persian) Gulf War"
+      ],
+      "special65_20": false,
+      "category": "Recent American History",
+      "questionPortuguese": "Diga uma guerra travada pelos Estados Unidos no século XX.",
+      "answersPortuguese": [
+        "Primeira Guerra Mundial",
+        "Segunda Guerra Mundial",
+        "Guerra da Coreia",
+        "Guerra do Vietnã",
+        "Guerra do Golfo Pérsico"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": []
+    },
+    {
+      "id": "civics-2025-101",
+      "number": 101,
+      "questionEnglish": "Why did the United States enter World War I?",
+      "answersEnglish": [
+        "Because Germany attacked U.S. (civilian) ships",
+        "To support the Allied Powers (England, France, Italy, and Russia)",
+        "To oppose the Central Powers (Germany, Austria-Hungary, the Ottoman Empire, and Bulgaria)"
+      ],
+      "special65_20": false,
+      "category": "Recent American History",
+      "questionPortuguese": "Por que os Estados Unidos entraram na Primeira Guerra Mundial?",
+      "answersPortuguese": [
+        "Porque a Alemanha atacou navios civis dos EUA",
+        "Para apoiar os Aliados (Inglaterra, França, Itália e Rússia)",
+        "Para se opor às Potências Centrais (Alemanha, Áustria-Hungria, Império Otomano e Bulgária)"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": []
+    },
+    {
+      "id": "civics-2025-102",
+      "number": 102,
+      "questionEnglish": "When did all women get the right to vote?",
+      "answersEnglish": [
+        "1920",
+        "After World War I",
+        "(With the) 19th Amendment"
+      ],
+      "special65_20": false,
+      "category": "Recent American History",
+      "questionPortuguese": "Quando todas as mulheres obtiveram o direito de votar?",
+      "answersPortuguese": [
+        "1920",
+        "Após a Primeira Guerra Mundial",
+        "Com a 19ª Emenda"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "amendment",
+        "vote"
+      ]
+    },
+    {
+      "id": "civics-2025-103",
+      "number": 103,
+      "questionEnglish": "What was the Great Depression?",
+      "answersEnglish": [
+        "Longest economic recession in modern history"
+      ],
+      "special65_20": false,
+      "category": "Recent American History",
+      "questionPortuguese": "O que foi a Grande Depressão?",
+      "answersPortuguese": [
+        "A recessão econômica mais longa da história moderna"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": []
+    },
+    {
+      "id": "civics-2025-104",
+      "number": 104,
+      "questionEnglish": "When did the Great Depression start?",
+      "answersEnglish": [
+        "The Great Crash (1929)",
+        "Stock market crash of 1929"
+      ],
+      "special65_20": false,
+      "category": "Recent American History",
+      "questionPortuguese": "Quando a Grande Depressão começou?",
+      "answersPortuguese": [
+        "A Grande Quebra de 1929",
+        "A quebra da bolsa de valores de 1929"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": []
+    },
+    {
+      "id": "civics-2025-105",
+      "number": 105,
+      "questionEnglish": "Who was president during the Great Depression and World War II?",
+      "answersEnglish": [
+        "(Franklin) Roosevelt"
+      ],
+      "special65_20": false,
+      "category": "Recent American History",
+      "questionPortuguese": "Quem foi presidente durante a Grande Depressão e a Segunda Guerra Mundial?",
+      "answersPortuguese": [
+        "(Franklin) Roosevelt"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "President"
+      ]
+    },
+    {
+      "id": "civics-2025-106",
+      "number": 106,
+      "questionEnglish": "Why did the United States enter World War II?",
+      "answersEnglish": [
+        "(Bombing of) Pearl Harbor",
+        "Japanese attacked Pearl Harbor",
+        "To support the Allied Powers (England, France, and Russia)",
+        "To oppose the Axis Powers (Germany, Italy, and Japan)"
+      ],
+      "special65_20": false,
+      "category": "Recent American History",
+      "questionPortuguese": "Por que os Estados Unidos entraram na Segunda Guerra Mundial?",
+      "answersPortuguese": [
+        "O bombardeio de Pearl Harbor",
+        "Os japoneses atacaram Pearl Harbor",
+        "Para apoiar os Aliados (Inglaterra, França e Rússia)",
+        "Para se opor às Potências do Eixo (Alemanha, Itália e Japão)"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": []
+    },
+    {
+      "id": "civics-2025-107",
+      "number": 107,
+      "questionEnglish": "Dwight Eisenhower is famous for many things. Name one.",
+      "answersEnglish": [
+        "General during World War II",
+        "President at the end of (during) the Korean War",
+        "34th president of the United States",
+        "Signed the Federal-Aid Highway Act of 1956 (Created the Interstate System)"
+      ],
+      "special65_20": false,
+      "category": "Recent American History",
+      "questionPortuguese": "Dwight Eisenhower é conhecido por muitas coisas. Diga uma.",
+      "answersPortuguese": [
+        "General durante a Segunda Guerra Mundial",
+        "Presidente no final ou durante a Guerra da Coreia",
+        "34º presidente dos Estados Unidos",
+        "Sancionou a Lei Federal de Auxílio às Rodovias de 1956, criando o sistema de rodovias interestaduais"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "President",
+        "federal"
+      ]
+    },
+    {
+      "id": "civics-2025-108",
+      "number": 108,
+      "questionEnglish": "Who was the United States’ main rival during the Cold War?",
+      "answersEnglish": [
+        "Soviet Union",
+        "USSR",
+        "Russia"
+      ],
+      "special65_20": false,
+      "category": "Recent American History",
+      "questionPortuguese": "Quem foi o principal rival dos Estados Unidos durante a Guerra Fria?",
+      "answersPortuguese": [
+        "União Soviética",
+        "URSS",
+        "Rússia"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": []
+    },
+    {
+      "id": "civics-2025-109",
+      "number": 109,
+      "questionEnglish": "During the Cold War, what was one main concern of the United States?",
+      "answersEnglish": [
+        "Communism",
+        "Nuclear war"
+      ],
+      "special65_20": false,
+      "category": "Recent American History",
+      "questionPortuguese": "Durante a Guerra Fria, qual era uma das principais preocupações dos Estados Unidos?",
+      "answersPortuguese": [
+        "Comunismo",
+        "Guerra nuclear"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": []
+    },
+    {
+      "id": "civics-2025-110",
+      "number": 110,
+      "questionEnglish": "Why did the United States enter the Korean War?",
+      "answersEnglish": [
+        "To stop the spread of communism"
+      ],
+      "special65_20": false,
+      "category": "Recent American History",
+      "questionPortuguese": "Por que os Estados Unidos entraram na Guerra da Coreia?",
+      "answersPortuguese": [
+        "Para impedir a expansão do comunismo"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": []
+    },
+    {
+      "id": "civics-2025-111",
+      "number": 111,
+      "questionEnglish": "Why did the United States enter the Vietnam War?",
+      "answersEnglish": [
+        "To stop the spread of communism"
+      ],
+      "special65_20": false,
+      "category": "Recent American History",
+      "questionPortuguese": "Por que os Estados Unidos entraram na Guerra do Vietnã?",
+      "answersPortuguese": [
+        "Para impedir a expansão do comunismo"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": []
+    },
+    {
+      "id": "civics-2025-112",
+      "number": 112,
+      "questionEnglish": "What did the civil rights movement do?",
+      "answersEnglish": [
+        "Fought to end racial discrimination"
+      ],
+      "special65_20": false,
+      "category": "Recent American History",
+      "questionPortuguese": "O que o movimento pelos direitos civis fez?",
+      "answersPortuguese": [
+        "Lutou para acabar com a discriminação racial"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "rights"
+      ]
+    },
+    {
+      "id": "civics-2025-113",
+      "number": 113,
+      "questionEnglish": "Martin Luther King, Jr. is famous for many things. Name one.",
+      "answersEnglish": [
+        "Fought for civil rights",
+        "Worked for equality for all Americans",
+        "Worked to ensure that people would “not be judged by the color of their skin, but by the content of their character”"
+      ],
+      "special65_20": true,
+      "category": "Recent American History",
+      "questionPortuguese": "Martin Luther King Jr. é conhecido por muitas coisas. Diga uma.",
+      "answersPortuguese": [
+        "Lutou pelos direitos civis",
+        "Trabalhou pela igualdade de todos os americanos",
+        "Trabalhou para que as pessoas não fossem julgadas pela cor da pele, mas pelo conteúdo do seu caráter"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "rights"
+      ]
+    },
+    {
+      "id": "civics-2025-114",
+      "number": 114,
+      "questionEnglish": "Why did the United States enter the Persian Gulf War?",
+      "answersEnglish": [
+        "To force the Iraqi military from Kuwait"
+      ],
+      "special65_20": false,
+      "category": "Recent American History",
+      "questionPortuguese": "Por que os Estados Unidos entraram na Guerra do Golfo Pérsico?",
+      "answersPortuguese": [
+        "Para obrigar as forças militares iraquianas a sair do Kuwait"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": []
+    },
+    {
+      "id": "civics-2025-115",
+      "number": 115,
+      "questionEnglish": "What major event happened on September 11, 2001 in the United States?",
+      "answersEnglish": [
+        "Terrorists attacked the United States",
+        "Terrorists took over two planes and crashed them into the World Trade Center in New York City",
+        "Terrorists took over a plane and crashed into the Pentagon in Arlington, Virginia",
+        "Terrorists took over a plane originally aimed at Washington, D.C., and crashed in a field in Pennsylvania"
+      ],
+      "special65_20": true,
+      "category": "Recent American History",
+      "questionPortuguese": "Qual grande acontecimento ocorreu nos Estados Unidos em 11 de setembro de 2001?",
+      "answersPortuguese": [
+        "Terroristas atacaram os Estados Unidos",
+        "Terroristas tomaram dois aviões e os lançaram contra o World Trade Center em Nova York",
+        "Terroristas tomaram um avião e o lançaram contra o Pentágono em Arlington, Virgínia",
+        "Terroristas tomaram um avião que originalmente tinha Washington, D.C. como alvo e o derrubaram em um campo na Pensilvânia"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": []
+    },
+    {
+      "id": "civics-2025-116",
+      "number": 116,
+      "questionEnglish": "Name one U.S. military conflict after the September 11, 2001 attacks.",
+      "answersEnglish": [
+        "(Global) War on Terror",
+        "War in Afghanistan",
+        "War in Iraq"
+      ],
+      "special65_20": false,
+      "category": "Recent American History",
+      "questionPortuguese": "Diga um conflito militar dos EUA após os ataques de 11 de setembro de 2001.",
+      "answersPortuguese": [
+        "Guerra Global ao Terror",
+        "Guerra no Afeganistão",
+        "Guerra no Iraque"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": []
+    },
+    {
+      "id": "civics-2025-117",
+      "number": 117,
+      "questionEnglish": "Name one American Indian tribe in the United States.",
+      "answersEnglish": [
+        "Apache",
+        "Blackfeet",
+        "Cayuga",
+        "Cherokee",
+        "Cheyenne",
+        "Chippewa",
+        "Choctaw",
+        "Creek",
+        "Crow",
+        "Hopi",
+        "Huron",
+        "Inupiat",
+        "Lakota",
+        "Mohawk",
+        "Mohegan",
+        "Navajo",
+        "Oneida",
+        "Onondaga",
+        "Pueblo",
+        "Seminole",
+        "Seneca",
+        "Shawnee",
+        "Sioux",
+        "Teton",
+        "Tuscarora"
+      ],
+      "special65_20": false,
+      "category": "Recent American History",
+      "questionPortuguese": "Diga uma tribo indígena americana dos Estados Unidos.",
+      "answersPortuguese": [
+        "Apache",
+        "Blackfeet",
+        "Cayuga",
+        "Cherokee",
+        "Cheyenne",
+        "Chippewa",
+        "Choctaw",
+        "Creek",
+        "Crow",
+        "Hopi",
+        "Huron",
+        "Inupiat",
+        "Lakota",
+        "Mohawk",
+        "Mohegan",
+        "Navajo",
+        "Oneida",
+        "Onondaga",
+        "Pueblo",
+        "Seminole",
+        "Seneca",
+        "Shawnee",
+        "Sioux",
+        "Teton",
+        "Tuscarora"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": []
+    },
+    {
+      "id": "civics-2025-118",
+      "number": 118,
+      "questionEnglish": "Name one example of an American innovation.",
+      "answersEnglish": [
+        "Light bulb",
+        "Automobile (cars, internal combustion engine)",
+        "Skyscrapers",
+        "Airplane",
+        "Assembly line",
+        "Landing on the moon",
+        "Integrated circuit (IC)"
+      ],
+      "special65_20": false,
+      "category": "Recent American History",
+      "questionPortuguese": "Diga um exemplo de inovação americana.",
+      "answersPortuguese": [
+        "Lâmpada elétrica",
+        "Automóvel (carros, motor de combustão interna)",
+        "Arranha-céus",
+        "Avião",
+        "Linha de montagem",
+        "Pouso na Lua",
+        "Circuito integrado (CI)"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": []
+    },
+    {
+      "id": "civics-2025-119",
+      "number": 119,
+      "questionEnglish": "What is the capital of the United States?",
+      "answersEnglish": [
+        "Washington, D.C."
+      ],
+      "special65_20": false,
+      "category": "Symbols",
+      "questionPortuguese": "Qual é a capital dos Estados Unidos?",
+      "answersPortuguese": [
+        "Washington, D.C."
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "capital"
+      ]
+    },
+    {
+      "id": "civics-2025-120",
+      "number": 120,
+      "questionEnglish": "Where is the Statue of Liberty?",
+      "answersEnglish": [
+        "New York (Harbor)",
+        "Liberty Island [Also acceptable are New Jersey, near New York City, and on the Hudson (River).]"
+      ],
+      "special65_20": false,
+      "category": "Symbols",
+      "questionPortuguese": "Onde fica a Estátua da Liberdade?",
+      "answersPortuguese": [
+        "Porto de Nova York",
+        "Ilha da Liberdade. Também são aceitos Nova Jersey, perto da cidade de Nova York e no rio Hudson."
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "liberty"
+      ]
+    },
+    {
+      "id": "civics-2025-121",
+      "number": 121,
+      "questionEnglish": "Why does the flag have 13 stripes?",
+      "answersEnglish": [
+        "(Because there were) 13 original colonies",
+        "(Because the stripes) represent the original colonies"
+      ],
+      "special65_20": true,
+      "category": "Symbols",
+      "questionPortuguese": "Por que a bandeira tem 13 listras?",
+      "answersPortuguese": [
+        "Porque existiam 13 colônias originais",
+        "Porque as listras representam as colônias originais"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": []
+    },
+    {
+      "id": "civics-2025-122",
+      "number": 122,
+      "questionEnglish": "Why does the flag have 50 stars?",
+      "answersEnglish": [
+        "(Because there is) one star for each state",
+        "(Because) each star represents a state",
+        "(Because there are) 50 states"
+      ],
+      "special65_20": false,
+      "category": "Symbols",
+      "questionPortuguese": "Por que a bandeira tem 50 estrelas?",
+      "answersPortuguese": [
+        "Porque há uma estrela para cada estado",
+        "Porque cada estrela representa um estado",
+        "Porque existem 50 estados"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "state"
+      ]
+    },
+    {
+      "id": "civics-2025-123",
+      "number": 123,
+      "questionEnglish": "What is the name of the national anthem?",
+      "answersEnglish": [
+        "The Star-Spangled Banner"
+      ],
+      "special65_20": false,
+      "category": "Symbols",
+      "questionPortuguese": "Qual é o nome do hino nacional?",
+      "answersPortuguese": [
+        "The Star-Spangled Banner (A Bandeira Estrelada)"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": []
+    },
+    {
+      "id": "civics-2025-124",
+      "number": 124,
+      "questionEnglish": "The Nation’s first motto was “E Pluribus Unum.” What does that mean?",
+      "answersEnglish": [
+        "Out of many, one",
+        "We all become one"
+      ],
+      "special65_20": false,
+      "category": "Symbols",
+      "questionPortuguese": "O primeiro lema da nação foi “E Pluribus Unum”. O que isso significa?",
+      "answersPortuguese": [
+        "De muitos, um",
+        "Todos nos tornamos um"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": []
+    },
+    {
+      "id": "civics-2025-125",
+      "number": 125,
+      "questionEnglish": "What is Independence Day?",
+      "answersEnglish": [
+        "A holiday to celebrate U.S. independence (from Britain)",
+        "The country’s birthday"
+      ],
+      "special65_20": false,
+      "category": "Holidays",
+      "questionPortuguese": "O que é o Dia da Independência?",
+      "answersPortuguese": [
+        "Um feriado para celebrar a independência dos EUA em relação à Grã-Bretanha",
+        "O aniversário do país"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "independence"
+      ]
+    },
+    {
+      "id": "civics-2025-126",
+      "number": 126,
+      "questionEnglish": "Name three national U.S. holidays.",
+      "answersEnglish": [
+        "New Year’s Day",
+        "Martin Luther King, Jr. Day",
+        "Presidents Day (Washington’s Birthday)",
+        "Memorial Day",
+        "Juneteenth",
+        "Independence Day",
+        "Labor Day",
+        "Columbus Day",
+        "Veterans Day",
+        "Thanksgiving Day",
+        "Christmas Day"
+      ],
+      "special65_20": true,
+      "category": "Holidays",
+      "questionPortuguese": "Diga três feriados nacionais dos EUA.",
+      "answersPortuguese": [
+        "Ano-Novo",
+        "Dia de Martin Luther King Jr.",
+        "Dia dos Presidentes (aniversário de Washington)",
+        "Memorial Day (dia em memória dos militares mortos em serviço)",
+        "Juneteenth (celebração do fim da escravidão)",
+        "Dia da Independência",
+        "Dia do Trabalho",
+        "Dia de Colombo",
+        "Dia dos Veteranos",
+        "Dia de Ação de Graças",
+        "Natal"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": [
+        "independence"
+      ]
+    },
+    {
+      "id": "civics-2025-127",
+      "number": 127,
+      "questionEnglish": "What is Memorial Day?",
+      "answersEnglish": [
+        "A holiday to honor soldiers who died in military service"
+      ],
+      "special65_20": false,
+      "category": "Holidays",
+      "questionPortuguese": "O que é Memorial Day?",
+      "answersPortuguese": [
+        "Um feriado para homenagear os militares que morreram em serviço"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": []
+    },
+    {
+      "id": "civics-2025-128",
+      "number": 128,
+      "questionEnglish": "What is Veterans Day?",
+      "answersEnglish": [
+        "A holiday to honor people in the (U.S.) military",
+        "A holiday to honor people who have served (in the U.S. military)"
+      ],
+      "special65_20": false,
+      "category": "Holidays",
+      "questionPortuguese": "O que é o Dia dos Veteranos?",
+      "answersPortuguese": [
+        "Um feriado para homenagear pessoas das Forças Armadas dos EUA",
+        "Um feriado para homenagear pessoas que serviram nas Forças Armadas dos EUA"
+      ],
+      "dynamic": false,
+      "dynamicType": null,
+      "vocabulary": []
+    }
+  ]
+}
