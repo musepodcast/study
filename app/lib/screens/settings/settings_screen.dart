@@ -89,17 +89,21 @@ class SettingsScreen extends StatelessWidget {
             },
           ),
           const SizedBox(height: 20),
-          DropdownButtonFormField<bool>(
-            initialValue: c.settings.slowAudio,
+          DropdownButtonFormField<double>(
+            initialValue: c.settings.speechRate,
             decoration: InputDecoration(
               labelText: tr(context, 'Audio speech rate'),
             ),
-            items: const [
-              DropdownMenuItem(value: false, child: AppText('Normal')),
-              DropdownMenuItem(value: true, child: AppText('Slow')),
+            items: [
+              for (final rate in StudySettings.speechRates)
+                DropdownMenuItem(
+                  value: rate,
+                  child: Text(StudySettings.speechRateLabel(rate)),
+                ),
             ],
             onChanged: (v) {
-              c.settings.slowAudio = v!;
+              c.speech.stop();
+              c.settings.speechRate = v!;
               c.save();
             },
           ),

@@ -10,6 +10,7 @@ extension type BrowserSpeechSynthesis._(JSObject _) implements JSObject {
   external JSArray<BrowserVoice> getVoices();
   external void speak(BrowserUtterance utterance);
   external void cancel();
+  external void pause();
   external void resume();
 }
 
@@ -35,7 +36,7 @@ extension type BrowserSpeechError._(JSObject _) implements JSObject {
 
 /// Keep browser playback inside the button's user gesture. A fresh utterance
 /// avoids reused-utterance failures; cancellation is an expected control action.
-class WebSpeechService implements SpeechService {
+class WebSpeechService extends SpeechService {
   BrowserUtterance? _active;
   int _generation = 0;
 
@@ -52,7 +53,7 @@ class WebSpeechService implements SpeechService {
   }
 
   @override
-  Future<bool> speak(String text, {bool slow = false, VoidCallback? onError}) {
+  Future<bool> speak(String text, {double rate = 1, VoidCallback? onError}) {
     try {
       if (!_supported || text.trim().isEmpty) {
         return Future.value(false);
@@ -64,7 +65,7 @@ class WebSpeechService implements SpeechService {
       // Voices may still be loading on the first tap. Always set English even
       // when getVoices() is empty; the browser can choose its own English voice.
       utterance.lang = 'en-US';
-      utterance.rate = slow ? 0.7 : 1.0;
+      utterance.rate = rate;
       utterance.volume = 1.0;
       try {
         final voices = browserSpeech.getVoices().toDart;
@@ -96,26 +97,59 @@ class WebSpeechService implements SpeechService {
         }
         debugPrint('Browser speech failed: ${event.error}');
         _active = null;
+        updateState(PlaybackState.idle);
         onError?.call();
       }).toJS;
       utterance.onend = ((JSObject event) {
         if (generation == _generation) {
           _active = null;
+          updateState(PlaybackState.idle);
         }
       }).toJS;
       // No awaited plugin/configuration calls before speak: preserve activation.
       browserSpeech.speak(utterance);
       browserSpeech.resume();
+      updateState(PlaybackState.playing);
       return Future.value(true);
     } catch (e) {
       debugPrint('Browser speech unavailable: $e');
       _active = null;
+      updateState(PlaybackState.idle);
+      return Future.value(false);
+    }
+  }
+
+  @override
+  Future<bool> pause() {
+    try {
+      if (!_supported || state != PlaybackState.playing) {
+        return Future.value(false);
+      }
+      browserSpeech.pause();
+      updateState(PlaybackState.paused);
+      return Future.value(true);
+    } catch (_) {
+      return Future.value(false);
+    }
+  }
+
+  @override
+  Future<bool> resume() {
+    try {
+      if (!_supported || state != PlaybackState.paused) {
+        return Future.value(false);
+      }
+      browserSpeech.resume();
+      updateState(PlaybackState.playing);
+      return Future.value(true);
+    } catch (_) {
       return Future.value(false);
     }
   }
 
   @override
   Future<void> stop() {
+    updateState(PlaybackState.idle);
     try {
       if (_supported) {
         _cancel();

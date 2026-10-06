@@ -30,6 +30,12 @@ void main() {
       await tester.pumpAndSettle();
       expect(
         find.text('What is the form of government of the United States?'),
+        findsNothing,
+      );
+      await tester.tap(find.text('Revelar pergunta'));
+      await tester.pumpAndSettle();
+      expect(
+        find.text('What is the form of government of the United States?'),
         findsOneWidget,
       );
       expect(find.text('Revelar resposta'), findsOneWidget);
@@ -117,8 +123,11 @@ void main() {
         tester,
         StudyScreen(controller: c, options: const StudyOptions(start: 1)),
       );
+      await tester.tap(find.text('Reveal Question'));
+      await tester.pumpAndSettle();
       expect(find.text('What is the supreme law of the land?'), findsOneWidget);
       expect(find.text('Qual é a lei suprema do país?'), findsNothing);
+      await tester.ensureVisible(find.text('Portuguese Help'));
       await tester.tap(find.text('Portuguese Help'));
       await tester.pumpAndSettle();
       expect(find.text('Qual é a lei suprema do país?'), findsOneWidget);
@@ -203,6 +212,7 @@ void main() {
       await tester.pumpAndSettle();
       expect(find.text('Portuguese Help'), findsNothing);
       for (var i = 0; i < 12; i++) {
+        expect(find.text('Reveal Question'), findsOneWidget);
         await tester.ensureVisible(find.text('Show Answer'));
         await tester.tap(find.text('Show Answer'));
         await tester.pumpAndSettle();
@@ -270,6 +280,8 @@ void main() {
           await screen(tester, child);
           expect(tester.takeException(), isNull);
           if (child is StudyScreen) {
+            await tester.tap(find.text('Reveal Question'));
+            await tester.pumpAndSettle();
             await tester.ensureVisible(find.text('Reveal Answer'));
             await tester.tap(find.text('Reveal Answer'));
             await tester.pumpAndSettle();

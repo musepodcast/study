@@ -80,6 +80,15 @@ class StudyController extends ChangeNotifier {
     save();
   }
 
+  void toggleStudyStatus(String id, StudyStatus status) {
+    final old = record(id) ?? const QuestionProgress();
+    progress.questions[id] = old.copyWith(
+      status: old.status == status ? StudyStatus.studied : status,
+      lastStudied: DateTime.now(),
+    );
+    save();
+  }
+
   void addResult(TestResult result) {
     progress.tests.insert(0, result);
     save();

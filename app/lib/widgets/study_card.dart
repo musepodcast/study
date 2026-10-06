@@ -4,6 +4,7 @@ import '../app/study_controller.dart';
 import '../models/question.dart';
 import '../models/settings.dart';
 import 'question_audio_controls.dart';
+import 'pronounceable_text.dart';
 
 class StudyCard extends StatefulWidget {
   final StudyController controller;
@@ -23,12 +24,13 @@ class StudyCard extends StatefulWidget {
 }
 
 class _StudyCardState extends State<StudyCard> {
-  bool help = false;
+  bool help = false, questionRevealed = false;
   @override
   void didUpdateWidget(StudyCard oldWidget) {
     super.didUpdateWidget(oldWidget);
     if (oldWidget.question.id != widget.question.id) {
       help = false;
+      questionRevealed = false;
     }
   }
 
@@ -68,13 +70,43 @@ class _StudyCardState extends State<StudyCard> {
               style: TextStyle(color: Theme.of(context).colorScheme.primary),
             ),
             const SizedBox(height: 24),
-            Text(
-              q.questionEnglish,
-              style: Theme.of(context).textTheme.headlineSmall,
+            FilledButton.tonalIcon(
+              onPressed: () => setState(() {
+                questionRevealed = !questionRevealed;
+                if (!questionRevealed) help = false;
+              }),
+              icon: Icon(
+                questionRevealed
+                    ? Icons.visibility_off_outlined
+                    : Icons.visibility_outlined,
+              ),
+              label: AppText(
+                questionRevealed ? 'Hide Question' : 'Reveal Question',
+              ),
             ),
+            const SizedBox(height: 16),
+            if (questionRevealed)
+              PronounceableText(
+                q.questionEnglish,
+                controller: c,
+                style: Theme.of(context).textTheme.headlineSmall,
+              )
+            else
+              const AppText(
+                'Listen first. Reveal the question if you need to read it.',
+              ),
             const SizedBox(height: 20),
             QuestionAudioControls(controller: c, text: q.questionEnglish),
-            if (!widget.officialTest && language == StudyLanguage.onTap)
+            if (questionRevealed || widget.revealed)
+              const Padding(
+                padding: EdgeInsets.only(top: 8),
+                child: AppText(
+                  'Tap any English word to hear its pronunciation.',
+                ),
+              ),
+            if (questionRevealed &&
+                !widget.officialTest &&
+                language == StudyLanguage.onTap)
               TextButton.icon(
                 onPressed: () => setState(() => help = !help),
                 icon: const Icon(Icons.translate_rounded),
@@ -82,7 +114,8 @@ class _StudyCardState extends State<StudyCard> {
                   help ? 'Hide Portuguese Help' : 'Portuguese Help',
                 ),
               ),
-            if (showPt) _translation(context, q.questionPortuguese),
+            if (questionRevealed && showPt)
+              _translation(context, q.questionPortuguese),
             const SizedBox(height: 20),
             AnimatedSwitcher(
               duration: MediaQuery.disableAnimationsOf(context)
@@ -129,16 +162,17 @@ class _StudyCardState extends State<StudyCard> {
                         for (final answer in answers)
                           Padding(
                             padding: const EdgeInsets.only(bottom: 10),
-                            child: Text(
+                            child: PronounceableText(
                               '• $answer',
+                              controller: c,
                               style: Theme.of(context).textTheme.bodyLarge,
                             ),
                           ),
-                        TextButton.icon(
-                          onPressed: () =>
-                              playSpeech(context, c, answers.join('. ')),
-                          icon: const Icon(Icons.volume_up_outlined),
-                          label: const AppText('Hear Answer'),
+                        QuestionAudioControls(
+                          controller: c,
+                          text: answers.join('. '),
+                          label: 'Hear Answer',
+                          showRate: false,
                         ),
                         if (showPt)
                           _translation(
@@ -169,7 +203,8 @@ class _StudyCardState extends State<StudyCard> {
                       ),
                     ),
             ),
-            if (!widget.officialTest &&
+            if (questionRevealed &&
+                !widget.officialTest &&
                 language != StudyLanguage.english &&
                 q.vocabulary.isNotEmpty) ...[
               const SizedBox(height: 24),
@@ -245,6 +280,11 @@ class _StudyCardState extends State<StudyCard> {
           ),
         ),
         actions: [
+          TextButton.icon(
+            onPressed: () => playSpeech(context, widget.controller, term),
+            icon: const Icon(Icons.volume_up_outlined),
+            label: const AppText('Pronounce Word'),
+          ),
           TextButton(
             onPressed: () => Navigator.pop(context),
             child: const AppText('Close'),

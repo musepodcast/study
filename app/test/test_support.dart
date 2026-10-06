@@ -41,23 +41,35 @@ class MemoryStorage implements StorageService {
   }
 }
 
-class FakeSpeech implements SpeechService {
+class FakeSpeech extends SpeechService {
   bool available = true;
   String? lastText;
-  bool? lastSlow;
+  double? lastRate;
   @override
   Future<bool> speak(
     String text, {
-    bool slow = false,
+    double rate = 1,
     VoidCallback? onError,
   }) async {
     lastText = text;
-    lastSlow = slow;
+    lastRate = rate;
+    updateState(available ? PlaybackState.playing : PlaybackState.idle);
     return available;
   }
 
   @override
-  Future<void> stop() async {}
+  Future<void> stop() async => updateState(PlaybackState.idle);
+  @override
+  Future<bool> pause() async {
+    updateState(PlaybackState.paused);
+    return true;
+  }
+
+  @override
+  Future<bool> resume() async {
+    updateState(PlaybackState.playing);
+    return true;
+  }
 }
 
 Future<StudyController> createController({

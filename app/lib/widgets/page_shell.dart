@@ -23,7 +23,10 @@ class PageShell extends StatelessWidget {
         IconButton(
           tooltip: tr(context, 'Settings'),
           icon: const Icon(Icons.tune_rounded),
-          onPressed: () => Navigator.pushNamed(context, '/settings'),
+          onPressed: () {
+            controller.speech.stop();
+            Navigator.pushNamed(context, '/settings');
+          },
         ),
       ],
     ),

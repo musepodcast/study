@@ -10,7 +10,10 @@ Production target: **https://musepodcast.github.io/study/**. Development and pro
 - Flash cards, restrained reveal animation, official/random order, favorites, mastered and Needs Practice status.
 - English Only, English + Portuguese, and Portuguese Help on Tap (default); reusable vocabulary help.
 - Brazilian Portuguese menus and controls by default; switch the interface to English in Settings → App language. This preference is saved independently of study help. Existing saved settings migrate without deleting progress.
-- Device/browser English speech, repeat, answer audio, normal/slow rates, and graceful fallback.
+- Device/browser English speech, repeat, answer audio, pause/resume/stop, six selectable speeds from 0.5× to 2×, and graceful fallback.
+- Tap any English question or answer word to hear its pronunciation; vocabulary dialogs also offer pronunciation.
+- Listen first in study and official simulation: question text starts hidden, with separate Reveal Question and Reveal Answer controls. Revealed English words can be tapped individually for pronunciation.
+- Tap a selected Know It or Needs Practice mark again to undo it; favorite buttons explicitly offer removal when selected.
 - Oral, self-graded **OFFICIAL TEST SIMULATION**: 20 unique random questions maximum, immediate pass at 12 correct, immediate failure once passing is impossible.
 - Extra flash-card collections: Random 10/20, all 128 random/in order, favorites, Needs Practice, and the 20 starred 65/20 questions.
 - Question search, category/status filters, progress dashboard, test history, and confirmed reset.
@@ -105,7 +108,13 @@ The UI labels configured current answers separately and shows the configured loc
 
 ## Audio and local progress
 
+In Study and Official Test Simulation, each question starts with its text hidden. Tap **Play Question** to listen, **Reveal Question** to read it, or **Hide Question** to return to listening. Revealing the question does not reveal the answer or change progress or scoring. **Reveal Answer** (Show Answer in simulation) stays independent, so you can check your spoken answer without opening the question text. Portuguese question help and vocabulary stay hidden until the question is revealed. Moving to the next question hides its text again. Tap any revealed English question or answer word to hear only that word at your selected speed.
+
 Speech is initiated by a user tap, prefers en-US with an installed voice, and falls back to the device default. Web uses the browser Speech Synthesis API directly, with a fresh utterance per tap and synchronous initiation to preserve browser user activation. Native Android/iOS uses `flutter_tts`. Expected cancellation during repeat/navigation does not show an unavailable-audio message. No prerecorded MP3s or cloud audio service are needed. Download an English voice on Android for offline speech; browser/device voice behavior varies. Missing or failing TTS leaves all written content usable.
+
+Use **Pause Audio**, **Resume Audio**, and **Stop Audio** during playback. The same controls also stop single-word pronunciation. Select **Speech speed** on a study card or **Audio speech rate** in Settings: 0.5×, 0.7×, 1.0×, 1.25×, 1.5×, or 2.0×. Changing speed stops current playback; play again to use the new speed. The preference is saved and old Slow/Normal settings migrate automatically. Tap an English word in the question or revealed answers to pronounce only that word; punctuation, official wording, and whitespace remain intact. Native speech speeds are approximate relative to each device's default; native pause/resume follows the plugin's Android/iOS behavior.
+
+Selected study actions change to **Undo Know It**, **Undo Needs Practice**, and **Remove Favorite**. Clearing either study mark returns the question to Studied while retaining its previous answer counts and study history. Favorites remain independent of study status.
 
 Progress/settings are serialized together under `civics_study.v1`. Queued writes preserve the order of updates. Favorites alone do not mark questions studied; revealing a study answer or grading a simulation does. Storage read/write errors show a notice while keeping the session usable. Completed official simulations are stored once; unfinished tests are not recorded. Scores are correct/actually asked, and the dashboard averages those percentages. Reset deletes progress/favorites/history after confirmation and retains settings. Data is device/browser-specific and is lost if the user clears app/browser storage. There is no cloud sync/export in v1.
 
@@ -125,6 +134,17 @@ git push -u origin test_dev
 ```
 
 Wait for **Production GitHub Pages** to succeed in the repository's Actions tab, then open **https://musepodcast.github.io/study/**.
+
+For future updates, use the [reusable update prompt](docs/update-prompt.md). When ready to publish, run the release script from PowerShell:
+
+```powershell
+cd C:\Users\isaac\test_dev\study
+powershell -NoProfile -ExecutionPolicy Bypass -File .\tools\publish.ps1
+```
+
+The default bumps `1.0.0+1` to `1.0.1+2`, runs dependency resolution, formatting, analysis, tests, content validation, and the release build, then commits **all repository changes** and pushes `test_dev`. GitHub Actions repeats validation and publishes production. The script checks the branch and remote and stops if GitHub has commits missing locally. Review your changes before running it.
+
+Use `-Bump Minor` for new features, `-Bump Major` for a major release, or `-Bump Build` to increment only the build number. Use `-WhatIf` to preview the next version without changing files or publishing. Use `-PrepareOnly` to bump and validate locally without committing or pushing. Each real invocation increments the version, including after a previous prepare-only run or failed check. Failed checks leave edits locally; a failed push leaves the commit locally and can be retried with `git push origin test_dev`. `-Message "Describe my update"` customizes the commit message.
 
 If you see a GitHub Pages 404, open the full `/study/` address, confirm `.github/workflows/pages.yml` has been committed and pushed, and check that its deployment job succeeded in Actions. Pages must use **GitHub Actions**, rather than publishing the repository root from a branch: the deployable `index.html` is generated in `app/build/web`, not stored at the repository root.
 

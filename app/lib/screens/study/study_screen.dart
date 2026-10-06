@@ -127,26 +127,33 @@ class _StudyScreenState extends State<StudyScreen> {
             children: [
               FilledButton.tonalIcon(
                 onPressed: revealed
-                    ? () => c.markStudied(q.id, status: StudyStatus.mastered)
+                    ? () => c.toggleStudyStatus(q.id, StudyStatus.mastered)
                     : null,
                 icon: Icon(
                   record?.status == StudyStatus.mastered
                       ? Icons.check_circle
                       : Icons.check_circle_outline,
                 ),
-                label: const AppText('Know It'),
+                label: AppText(
+                  record?.status == StudyStatus.mastered
+                      ? 'Undo Know It'
+                      : 'Know It',
+                ),
               ),
               OutlinedButton.icon(
                 onPressed: revealed
-                    ? () =>
-                          c.markStudied(q.id, status: StudyStatus.needsPractice)
+                    ? () => c.toggleStudyStatus(q.id, StudyStatus.needsPractice)
                     : null,
                 icon: Icon(
                   record?.status == StudyStatus.needsPractice
                       ? Icons.bookmark
                       : Icons.bookmark_outline,
                 ),
-                label: const AppText('Needs Practice'),
+                label: AppText(
+                  record?.status == StudyStatus.needsPractice
+                      ? 'Undo Needs Practice'
+                      : 'Needs Practice',
+                ),
               ),
               TextButton.icon(
                 onPressed: () => c.toggleFavorite(q.id),
@@ -155,7 +162,9 @@ class _StudyScreenState extends State<StudyScreen> {
                       ? Icons.star_rounded
                       : Icons.star_outline_rounded,
                 ),
-                label: const AppText('Favorite'),
+                label: AppText(
+                  record?.favorite == true ? 'Remove Favorite' : 'Favorite',
+                ),
               ),
             ],
           ),

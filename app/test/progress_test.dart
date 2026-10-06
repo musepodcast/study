@@ -7,6 +7,42 @@ import 'test_support.dart';
 
 void main() {
   test(
+    'speech speeds migrate and persist without losing study marks',
+    () async {
+      final legacy = StudySettings.fromJson({
+        'theme': 'system',
+        'language': 'onTap',
+        'slowAudio': true,
+      });
+      expect(legacy.speechRate, 0.7);
+      for (final rate in StudySettings.speechRates) {
+        legacy.speechRate = rate;
+        expect(StudySettings.fromJson(legacy.toJson()).speechRate, rate);
+      }
+      final storage = MemoryStorage();
+      final c = await createController(storage: storage);
+      final id = c.content!.questions.first.id;
+      c.markStudied(id, correct: true);
+      c.toggleFavorite(id);
+      c.toggleStudyStatus(id, StudyStatus.mastered);
+      c.toggleStudyStatus(id, StudyStatus.mastered);
+      expect(c.mastered, 0);
+      c.toggleStudyStatus(id, StudyStatus.needsPractice);
+      c.toggleStudyStatus(id, StudyStatus.needsPractice);
+      c.toggleFavorite(id);
+      c.settings.speechRate = 1.5;
+      c.save();
+      await c.writesComplete;
+      final restored = await createController(storage: storage);
+      expect(restored.record(id)!.status, StudyStatus.studied);
+      expect(restored.record(id)!.correct, 1);
+      expect(restored.studied, 1);
+      expect(restored.favorites, 0);
+      expect(restored.needsPractice, 0);
+      expect(restored.settings.speechRate, 1.5);
+    },
+  );
+  test(
     'interface defaults to Brazilian Portuguese and old settings migrate',
     () {
       expect(StudySettings().appLanguage, AppLanguage.portuguese);
